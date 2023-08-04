@@ -7,7 +7,13 @@ from selenium.webdriver.chrome.options import Options
 
 
 mlb_url = "https://www.mlb.com/scores/"
-check_date = "2023-02-27"
+"""
+
+REVISAR FECHA 2023-02-27
+HAY UN JUEGO QUE TERMINÓ EN 7 ENTRADAS, CAUSA ERROR
+
+"""
+check_date = "2023-03-05"
 file_path = os.path.dirname(__file__)
 
 
@@ -51,13 +57,12 @@ def format_data(soup):
     for result in results:
         teams = result.find_all('div',{'class':'TeamWrappersstyle__DesktopTeamWrapper-sc-uqs6qh-0 fdaoCu'})
         local_score_by_inning = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 fbtTqY'})
-        visit_score_by_inning = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 cCJzxi'})
         local_score = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 ddFUsj'})
         local_hits_errors = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 bybxiY'})
+        
+        visit_score_by_inning = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 cCJzxi'})
         visit_score = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 jPCzPZ'})
         visit_hits_errors = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 ggbVFi'})
-        print(len(local_score_by_inning))
-        print(len(visit_score_by_inning))
 
         results_df.loc[len(results_df)] = [check_date,
                            teams[0].get_text(),
