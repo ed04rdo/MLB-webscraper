@@ -1,0 +1,67 @@
+game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_inning,6th_inning,7th_inning,8th_inning,9th_inning,runs,hits,errors,result
+2023-02-25,Mets,Astros,test,2,0,0,0,0,0,0,0,0,2,4,4,test
+2023-02-25,Astros,Mets,test,0,0,0,0,0,1,3,0,X,4,8,0,test
+2023-02-25,Nationals,Cardinals,test,1,0,0,0,0,0,0,1,1,3,9,1,test
+2023-02-25,Cardinals,Nationals,test,0,0,2,0,0,0,0,0,0,2,5,0,test
+2023-02-25,Blue Jays,Pirates,test,0,0,1,3,2,0,3,0,0,9,13,1,test
+2023-02-25,Pirates,Blue Jays,test,0,0,4,0,0,1,0,2,0,7,7,2,test
+2023-02-25,Twins,Orioles,test,1,0,0,2,0,1,1,0,0,5,4,0,test
+2023-02-25,Orioles,Twins,test,0,0,0,1,4,2,3,0,X,10,13,0,test
+2023-02-25,Rays,Twins,test,0,0,0,2,2,0,0,0,0,4,8,0,test
+2023-02-25,Twins,Rays,test,0,6,0,0,0,0,2,0,X,8,12,1,test
+2023-02-25,Phillies,Tigers,test,0,0,0,0,0,0,2,0,0,2,6,2,test
+2023-02-25,Tigers,Phillies,test,0,0,1,0,0,1,2,0,X,4,6,0,test
+2023-02-25,Red Sox,Braves,test,0,1,2,0,0,0,0,3,0,6,10,2,test
+2023-02-25,Braves,Red Sox,test,0,0,2,0,1,0,0,0,3,6,9,1,test
+2023-02-25,Yankees,Phillies,test,0,0,1,0,3,0,0,0,0,4,6,1,test
+2023-02-25,Phillies,Yankees,test,0,2,0,0,2,0,2,1,X,7,11,0,test
+2023-02-25,Guardians,Reds,test,1,1,0,0,1,0,0,0,0,3,8,0,test
+2023-02-25,Reds,Guardians,test,1,1,0,0,0,0,0,1,1,4,7,0,test
+2023-02-25,D-backs,Athletics,test,1,1,0,0,2,0,3,0,0,7,12,3,test
+2023-02-25,Athletics,D-backs,test,0,0,2,1,6,2,0,1,X,12,11,1,test
+2023-02-25,Giants,Cubs,test,1,0,1,3,0,2,0,0,1,8,13,6,test
+2023-02-25,Cubs,Giants,test,0,1,1,0,7,0,0,1,X,10,12,0,test
+2023-02-25,Royals,Rangers,test,0,0,0,7,1,0,1,0,1,10,10,0,test
+2023-02-25,Rangers,Royals,test,0,3,0,0,0,0,0,0,2,5,9,0,test
+2023-02-25,Padres,White Sox,test,1,0,0,1,0,0,0,1,3,6,9,0,test
+2023-02-25,White Sox,Padres,test,0,1,0,0,0,0,0,0,1,2,4,1,test
+2023-02-25,Rockies,D-backs,test,2,2,0,0,0,3,2,2,1,12,15,1,test
+2023-02-25,D-backs,Rockies,test,1,0,0,1,1,0,1,1,0,5,12,2,test
+2023-02-25,Angels,Mariners,test,0,4,0,1,0,0,0,0,0,5,10,0,test
+2023-02-25,Mariners,Angels,test,0,0,0,0,1,0,0,0,0,1,5,0,test
+2023-02-25,Dodgers,Brewers,test,0,0,2,0,0,0,2,0,0,4,6,0,test
+2023-02-25,Brewers,Dodgers,test,1,0,2,0,2,2,0,0,X,7,9,0,test
+2023-02-25,Marlins,Mets,test,0,1,1,0,0,0,0,0,0,2,3,1,test
+2023-02-25,Mets,Marlins,test,0,2,1,0,2,0,0,0,X,5,10,1,test
+2023-02-26,Orioles,Tigers,test,0,0,0,0,9,0,0,1,0,10,14,1,test
+2023-02-26,Tigers,Orioles,test,1,0,0,0,3,1,0,0,1,6,5,0,test
+2023-02-26,Astros,Nationals,test,0,0,0,2,0,0,0,0,0,2,6,0,test
+2023-02-26,Nationals,Astros,test,0,1,1,0,0,0,0,0,1,3,8,0,test
+2023-02-26,Rays,Red Sox,test,0,0,0,0,0,1,1,4,0,6,4,1,test
+2023-02-26,Red Sox,Rays,test,0,1,0,0,0,3,0,2,1,7,8,0,test
+2023-02-26,Twins,Phillies,test,0,0,0,0,6,0,0,1,1,8,7,1,test
+2023-02-26,Phillies,Twins,test,1,1,0,0,2,6,0,0,X,10,9,1,test
+2023-02-26,Braves,Yankees,test,0,0,0,0,0,0,0,0,0,0,1,0,test
+2023-02-26,Yankees,Braves,test,4,0,0,0,0,3,0,0,X,7,10,1,test
+2023-02-26,Yankees,Blue Jays,test,1,0,1,3,1,1,0,2,0,9,16,0,test
+2023-02-26,Blue Jays,Yankees,test,0,0,0,0,5,0,0,0,0,5,8,0,test
+2023-02-26,Nationals,Mets,test,0,1,0,0,1,0,0,0,1,3,7,1,test
+2023-02-26,Mets,Nationals,test,0,0,0,2,0,0,1,3,X,6,8,1,test
+2023-02-26,Cardinals,Marlins,test,5,0,0,1,0,0,0,2,0,8,16,0,test
+2023-02-26,Marlins,Cardinals,test,0,0,0,0,0,2,0,0,0,2,6,2,test
+2023-02-26,Cubs,Dodgers,test,0,3,0,0,0,1,0,0,0,4,7,1,test
+2023-02-26,Dodgers,Cubs,test,0,0,0,0,0,2,3,4,X,9,10,0,test
+2023-02-26,Mariners,Royals,test,0,2,2,2,0,0,1,0,0,7,14,0,test
+2023-02-26,Royals,Mariners,test,5,0,0,0,0,3,0,0,X,8,11,0,test
+2023-02-26,Reds,Giants,test,1,0,0,0,0,3,1,1,0,6,11,1,test
+2023-02-26,Giants,Reds,test,0,0,1,0,0,1,0,3,2,7,14,0,test
+2023-02-26,Rangers,Guardians,test,2,3,2,1,0,0,0,5,0,13,15,0,test
+2023-02-26,Guardians,Rangers,test,0,0,0,0,0,0,3,1,0,4,9,1,test
+2023-02-26,D-backs,Padres,test,0,0,0,2,0,4,0,0,0,6,5,2,test
+2023-02-26,Padres,D-backs,test,0,9,0,5,0,3,0,1,X,18,20,0,test
+2023-02-26,White Sox,Angels,test,0,0,0,0,0,0,0,0,0,0,5,2,test
+2023-02-26,Angels,White Sox,test,1,3,3,0,0,0,0,0,X,7,13,0,test
+2023-02-26,Brewers,Rockies,test,1,2,0,0,0,1,0,2,0,6,10,2,test
+2023-02-26,Rockies,Brewers,test,0,2,1,0,0,0,5,4,X,12,12,0,test
+2023-02-26,Athletics,Brewers,test,4,0,1,0,0,1,5,0,0,11,13,0,test
+2023-02-26,Brewers,Athletics,test,0,0,1,0,0,0,0,0,3,4,10,2,test
