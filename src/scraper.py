@@ -7,8 +7,16 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
 
 """
-    CHECK DATE 2023-03-01
-    GAMES OF 7 INNINGS BUT NOT OUT OF RANGE
+    SPECIAL CASES CONSIDERATIONS
+        CHECK DATE 2023-02-24
+            GAMES OF 7 INNINGS CAUSES INDEX OUT OF RANGE
+        CHECK DATE 2023-03-01
+            GAMES OF 7 INNINGS BUT NOT OUT OF RANGE
+            HAS VALUE = ' '
+        CHECK DATE 2023-03-15
+            CANCELED GAMES
+        CHECK DATE 2023-04-02
+            EXTRA INNING GAME
 """
 
 
@@ -32,7 +40,7 @@ def initialize_vars():
     file_path = os.path.dirname(__file__)
     results_df = pd.read_csv(file_path+"/../output/results_df.csv")
     mlb_url = "https://www.mlb.com/scores/"
-    check_date = "2023-03-15"
+    check_date = "2023-04-02"
 
 def validate_date():
     if results_df[results_df.game_date == check_date].game_date.count() != 0:
@@ -63,59 +71,64 @@ def parse_html(html):
     return soup
 
 def format_data(soup):
-    results = soup.find_all('div',{'class':'TeamMatchupLayerstyle__TeamMatchupLayerWrapper-sc-7tca6g-0 bFUvsX'})
+    results = soup.find_all('div',{'class':'grid-itemstyle__GridItemWrapper-sc-cq9wv2-0 gmoPjI'})
     
     for result in results:
-        teams = result.find_all('div',{'class':'TeamWrappersstyle__DesktopTeamWrapper-sc-uqs6qh-0 fdaoCu'})
-        teams_record = result.find_all('div',{'class':'teamstyle__TeamLabel-sc-1suh43a-3 teamstyle__DesktopRecordWrapper-sc-1suh43a-4 gbRmLr'})
 
-        local_score_by_inning = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 fbtTqY'})
-        local_score = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 ddFUsj'})
-        local_hits_errors = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 bybxiY'})
-        
-        visit_score_by_inning = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 cCJzxi'})
-        visit_score = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 jPCzPZ'})
-        visit_hits_errors = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 ggbVFi'})
+        game_status = result.find('span',{'class':'StatusLayerstyle__GameStateWrapper-sc-1s2c2o8-3 feaLYF'})
+        print(game_status.get_text())
 
-        winner = int(local_score[0].get_text()) > int(visit_score[1].get_text())
-  
-        register = full_game_validator(local_score_by_inning, visit_score_by_inning)
+        if game_status.get_text() != 'Canceled':
+            teams = result.find_all('div',{'class':'TeamWrappersstyle__DesktopTeamWrapper-sc-uqs6qh-0 fdaoCu'})
+            teams_record = result.find_all('div',{'class':'teamstyle__TeamLabel-sc-1suh43a-3 teamstyle__DesktopRecordWrapper-sc-1suh43a-4 gbRmLr'})
 
-        results_df.loc[len(results_df)] = [check_date,
-                           teams[0].get_text(),
-                           teams[1].get_text(),
-                           teams_record[0].get_text(),
-                           register[0],
-                           register[2],
-                           register[4],
-                           register[6],
-                           register[8],
-                           register[10],
-                           register[12],
-                           register[14],
-                           register[16],
-                           local_score[0].get_text(),
-                           local_hits_errors[0].get_text(),
-                           local_hits_errors[1].get_text(),
-                           "W" if winner else "L"]
+            local_score_by_inning = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 fbtTqY'})
+            local_score = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 ddFUsj'})
+            local_hits_errors = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 bybxiY'})
+            
+            visit_score_by_inning = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 cCJzxi'})
+            visit_score = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 jPCzPZ'})
+            visit_hits_errors = result.find_all('div',{'class':'lineScorestyle__StyledInningCell-sc-1d7bghs-1 ggbVFi'})
 
-        results_df.loc[len(results_df)] = [check_date,
-                           teams[1].get_text(),
-                           teams[0].get_text(),
-                           teams_record[1].get_text(),
-                           register[1],
-                           register[3],
-                           register[5],
-                           register[7],
-                           register[9],
-                           register[11],
-                           register[13],
-                           register[15],
-                           register[17],
-                           visit_score[1].get_text(),
-                           visit_hits_errors[0].get_text(),
-                           visit_hits_errors[1].get_text(),
-                           "L" if winner else "W"]
+            winner = int(local_score[0].get_text()) > int(visit_score[1].get_text())
+    
+            register = full_game_validator(local_score_by_inning, visit_score_by_inning)
+
+            results_df.loc[len(results_df)] = [check_date,
+                            teams[0].get_text(),
+                            teams[1].get_text(),
+                            teams_record[0].get_text(),
+                            register[0],
+                            register[2],
+                            register[4],
+                            register[6],
+                            register[8],
+                            register[10],
+                            register[12],
+                            register[14],
+                            register[16],
+                            local_score[0].get_text(),
+                            local_hits_errors[0].get_text(),
+                            local_hits_errors[1].get_text(),
+                            "W" if winner else "L"]
+
+            results_df.loc[len(results_df)] = [check_date,
+                            teams[1].get_text(),
+                            teams[0].get_text(),
+                            teams_record[1].get_text(),
+                            register[1],
+                            register[3],
+                            register[5],
+                            register[7],
+                            register[9],
+                            register[11],
+                            register[13],
+                            register[15],
+                            register[17],
+                            visit_score[1].get_text(),
+                            visit_hits_errors[0].get_text(),
+                            visit_hits_errors[1].get_text(),
+                            "L" if winner else "W"]
 
 def full_game_validator(local,visit):
     # GAMES THAT DIDN´T END ON 9 INNINGS
