@@ -138,7 +138,7 @@ def format_data(soup,date):
                             local_score[0].get_text(),
                             local_hits_errors[0].get_text(),
                             local_hits_errors[1].get_text(),
-                            "W" if winner else ("L" if winner and tie else "T")]
+                            "W" if winner else ("T" if winner or tie else "L")]
 
             results_df.loc[len(results_df)] = [date,
                             teams[1].get_text(),
@@ -156,7 +156,8 @@ def format_data(soup,date):
                             visit_score[1].get_text(),
                             visit_hits_errors[0].get_text(),
                             visit_hits_errors[1].get_text(),
-                            "W" if winner else ("L" if winner and tie else "T")]
+                            "L" if winner else ("T" if winner or tie else "W")]
+
 
 def full_game_validator(local,visit):
     # GAMES THAT DIDN´T END ON 9 INNINGS
