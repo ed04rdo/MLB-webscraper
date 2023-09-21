@@ -18,6 +18,8 @@ from selenium.webdriver.chrome.options import Options
             CANCELED GAMES
         CHECK DATE 2023-04-02
             EXTRA INNING GAME
+        CHECK DATE 2023-04-05
+            POSTPONED GAME
 """
 
 
@@ -29,27 +31,52 @@ def main():
     write_file()
 
 def initialize_vars():
-    global file_path
-    global results_df
-    global mlb_url
+    """
+        @mode  
+            determines if single date or multidate process
+            each process works with a different file
+                0 = single date process
+                1 = multi-date process 
+
+        @single_date
+            used in mode 0
+        
+        @date_range
+            used in mode 1
+            first set start_date,end_date
+
+    """
+
+    global mode
     global single_date
     global date_range
-
-    file_path = os.path.dirname(__file__)
-    results_df = pd.read_csv(file_path+"/../output/multi_date_results_df.csv")
-    mlb_url = "https://www.mlb.com/scores/"
+    global file_path
+    global file
+    global results_df
+    global mlb_url
+    
+     
+    mode = 1
     single_date = "2023-04-02"
-
     start_date = datetime.date(2023,2,24)
-    end_date = datetime.date(2023,4,1)
+    end_date = datetime.date(2023,4,5)
     delta = end_date-start_date
     date_range = [start_date + datetime.timedelta(day) for day in range(0,delta.days+1)]
 
 
+    file_path = os.path.dirname(__file__)
+    file = "multi_date_results_df" if mode == 1 else "results_df"
+    results_df = pd.read_csv(file_path+"/../output/{}.csv".format(file))
+    mlb_url = "https://www.mlb.com/scores/"
+
+
 def validate_date(date):
-    if results_df[results_df.game_date == date].game_date.count() != 0:
+    if results_df[results_df.game_date == date].game_date.count() != 0 and mode == 0:
         print("DATE ALREADY CONTAINED IN DF, TRY ANOTHER")
         exit()
+    elif results_df[results_df.game_date == date].game_date.count() != 0 and mode == 1:
+        print("DATE ALREADY CONTAINED IN DF, SKIPPING TO NEXT DATE")
+        return 1
 
 def open_web_driver():
     options = Options()
@@ -67,11 +94,9 @@ def open_web_driver():
 
 def process(driver):
     """
-        mode determines if single date or multidate process
-        0 = single date process
-        1 = multi-date process 
+
     """
-    mode = 1
+
     if mode == 0:
         validate_date(single_date)
         driver.get(mlb_url+single_date)
@@ -80,8 +105,8 @@ def process(driver):
         format_data(soup, single_date)
     else:
         for date in date_range:
-            validate_date(str(date))
-            print("CURRENTLY WORKING DATE",date)
+            if validate_date(str(date)) == 1:
+                continue
             driver.get(mlb_url+str(date))
             html = driver.page_source
             soup = parse_html(html)
@@ -90,14 +115,16 @@ def process(driver):
 
 def parse_html(html):
     soup = bs4(html,'html.parser')
-
-    # UNCOMMENT FOR WRITING HTML RESULT ON A TXT FILE FOR ANALYSIS
-    # with open(file_path+'/../output/bsoup.txt', mode='wt', encoding='utf-8') as file:
-    #    file.write(soup.prettify())
+    """
+        # UNCOMMENT FOR WRITING HTML RESULT ON A TXT FILE FOR ANALYSIS
+        # with open(file_path+'/../output/bsoup.txt', mode='wt', encoding='utf-8') as file:
+        #    file.write(soup.prettify())
+    """
     
     return soup
 
 def format_data(soup,date):
+    print("CURRENTLY WORKING DATE",date)
     results = soup.find_all('div',{'class':'grid-itemstyle__GridItemWrapper-sc-cq9wv2-0 gmoPjI'})
     
     for result in results:
@@ -135,6 +162,14 @@ def format_data(soup,date):
                             register[12],
                             register[14],
                             register[16],
+                            register[18],
+                            register[20],
+                            register[22],
+                            register[24],
+                            register[26],
+                            register[28],
+                            register[30],
+                            "Y" if register[18] != "X" else "N",
                             local_score[0].get_text(),
                             local_hits_errors[0].get_text(),
                             local_hits_errors[1].get_text(),
@@ -153,6 +188,14 @@ def format_data(soup,date):
                             register[13],
                             register[15],
                             register[17],
+                            register[19],
+                            register[21],
+                            register[23],
+                            register[25],
+                            register[27],
+                            register[29],
+                            register[31],
+                            "Y" if register[18] != "X" else "N",
                             visit_score[1].get_text(),
                             visit_hits_errors[0].get_text(),
                             visit_hits_errors[1].get_text(),
@@ -162,17 +205,18 @@ def format_data(soup,date):
 def full_game_validator(local,visit):
     # GAMES THAT DIDN´T END ON 9 INNINGS
     score_by_inning = []
-    for x in range(9):
+    for inning in range(16):
         try:
-            score_by_inning.append(str(local[x].get_text()))
-            score_by_inning.append(str(visit[x].get_text()))
+            score_by_inning.append(str(local[inning].get_text()))
+            score_by_inning.append(str(visit[inning].get_text()))
         except IndexError as e:
             score_by_inning.append('X')
             score_by_inning.append('X')
+    
     return score_by_inning
 
 def write_file():
-    results_df.to_csv(file_path+"/../output/multi_date_results_df.csv",index=False)
+    results_df.to_csv(file_path+"/../output/{}.csv".format(file),index=False)
                            
         
 if __name__ == "__main__":
