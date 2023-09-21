@@ -29,3 +29,27 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-04-02,Mariners,Guardians,1 - 3 ,1,0,3,0,1,0,0,0,0,0,X,X,X,X,X,X,Y,5,9,1,L
 2023-04-02,Phillies,Rangers,0 - 3 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,1,9,0,L
 2023-04-02,Rangers,Phillies,3 - 0 ,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,X,N,2,8,0,W
+2023-04-05,Rays,Nationals,6 - 0 ,0,1,2,0,0,3,1,0,0,X,X,X,X,X,X,X,N,7,11,0,W
+2023-04-05,Nationals,Rays,1 - 5 ,0,1,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,2,6,1,L
+2023-04-05,Phillies,Yankees,1 - 5 ,0,0,0,0,0,0,1,1,0,X,X,X,X,X,X,X,N,2,5,0,L
+2023-04-05,Yankees,Phillies,4 - 2 ,1,0,0,0,0,1,2,0,X,X,X,X,X,X,X,X,N,4,9,0,W
+2023-04-05,Twins,Marlins,4 - 2 ,0,0,0,0,0,0,1,0,1,X,X,X,X,X,X,X,N,2,6,0,L
+2023-04-05,Marlins,Twins,3 - 4 ,1,0,0,0,0,0,0,4,X,X,X,X,X,X,X,X,N,5,7,1,W
+2023-04-05,Braves,Cardinals,5 - 1 ,3,1,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,5,10,0,W
+2023-04-05,Cardinals,Braves,2 - 4 ,0,0,0,0,0,0,1,0,1,X,X,X,X,X,X,X,N,2,6,0,L
+2023-04-05,Pirates,Red Sox,4 - 2 ,0,0,0,1,0,1,2,0,0,X,X,X,X,X,X,X,N,4,9,0,W
+2023-04-05,Red Sox,Pirates,2 - 4 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,1,5,2,L
+2023-04-05,Mets,Brewers,3 - 4 ,1,0,3,0,2,0,0,0,0,X,X,X,X,X,X,X,N,6,7,0,L
+2023-04-05,Brewers,Mets,5 - 1 ,0,4,0,0,2,0,0,0,1,X,X,X,X,X,X,X,N,7,10,0,W
+2023-04-05,Orioles,Rangers,3 - 3 ,0,0,0,0,2,0,0,0,0,X,X,X,X,X,X,X,N,2,2,1,L
+2023-04-05,Rangers,Orioles,4 - 2 ,2,0,0,0,0,2,1,0,X,X,X,X,X,X,X,X,N,5,9,1,W
+2023-04-05,Tigers,Astros,2 - 4 ,0,0,1,0,0,0,0,1,0,X,X,X,X,X,X,X,N,2,7,1,L
+2023-04-05,Astros,Tigers,3 - 4 ,0,2,0,2,0,0,2,2,X,X,X,X,X,X,X,X,N,8,11,0,W
+2023-04-05,Giants,White Sox,2 - 3 ,0,1,0,0,0,0,0,0,2,X,X,X,X,X,X,X,N,3,4,1,L
+2023-04-05,White Sox,Giants,3 - 3 ,2,0,0,0,2,0,3,0,X,X,X,X,X,X,X,X,N,7,13,1,W
+2023-04-05,Guardians,Athletics,5 - 2 ,0,0,0,0,0,2,2,0,0,2,X,X,X,X,X,X,Y,6,9,0,W
+2023-04-05,Athletics,Guardians,2 - 4 ,0,0,0,0,0,0,0,4,0,0,X,X,X,X,X,X,Y,4,4,2,L
+2023-04-05,Angels,Mariners,4 - 2 ,0,2,0,0,0,0,2,0,0,X,X,X,X,X,X,X,N,4,5,0,W
+2023-04-05,Mariners,Angels,2 - 5 ,1,0,0,0,0,0,2,0,0,X,X,X,X,X,X,X,N,3,8,0,L
+2023-04-05,Blue Jays,Royals,3 - 3 ,0,0,0,0,0,1,0,2,0,X,X,X,X,X,X,X,N,3,10,0,W
+2023-04-05,Royals,Blue Jays,1 - 5 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,2,0,L

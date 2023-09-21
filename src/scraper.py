@@ -57,9 +57,9 @@ def initialize_vars():
     
      
     mode = 1
-    single_date = "2023-04-02"
+    single_date = "2023-04-05"
     start_date = datetime.date(2023,2,24)
-    end_date = datetime.date(2023,4,5)
+    end_date = datetime.date(2023,9,20)
     delta = end_date-start_date
     date_range = [start_date + datetime.timedelta(day) for day in range(0,delta.days+1)]
 
@@ -107,6 +107,7 @@ def process(driver):
         for date in date_range:
             if validate_date(str(date)) == 1:
                 continue
+            print("CURRENTLY WORKING DATE",date)
             driver.get(mlb_url+str(date))
             html = driver.page_source
             soup = parse_html(html)
@@ -124,15 +125,15 @@ def parse_html(html):
     return soup
 
 def format_data(soup,date):
-    print("CURRENTLY WORKING DATE",date)
+
     results = soup.find_all('div',{'class':'grid-itemstyle__GridItemWrapper-sc-cq9wv2-0 gmoPjI'})
     
     for result in results:
 
         game_status = result.find('span',{'class':'StatusLayerstyle__GameStateWrapper-sc-1s2c2o8-3 feaLYF'})
-        print(game_status.get_text())
+        #print(game_status.get_text())
 
-        if game_status.get_text() != 'Canceled':
+        if game_status.get_text() != 'Canceled' and game_status.get_text() != 'Postponed':
             teams = result.find_all('div',{'class':'TeamWrappersstyle__DesktopTeamWrapper-sc-uqs6qh-0 fdaoCu'})
             teams_record = result.find_all('div',{'class':'teamstyle__TeamLabel-sc-1suh43a-3 teamstyle__DesktopRecordWrapper-sc-1suh43a-4 gbRmLr'})
 
