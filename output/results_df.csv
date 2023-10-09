@@ -53,3 +53,39 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-04-05,Mariners,Angels,2 - 5 ,1,0,0,0,0,0,2,0,0,X,X,X,X,X,X,X,N,3,8,0,L
 2023-04-05,Blue Jays,Royals,3 - 3 ,0,0,0,0,0,1,0,2,0,X,X,X,X,X,X,X,N,3,10,0,W
 2023-04-05,Royals,Blue Jays,1 - 5 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,2,0,L
+2023-03-13,Korea,China,2 - 2 ,2,2,8,6,4,X,X,X,X,X,X,X,X,X,X,X,N,22,20,0,W
+2023-03-13,China,Korea,0 - 4 ,2,0,0,0,0,X,X,X,X,X,X,X,X,X,X,X,N,2,4,0,L
+2023-03-13,Dominican Rep.,Nicaragua,1 - 1 ,1,0,1,2,0,1,1,0,0,X,X,X,X,X,X,X,N,6,12,0,W
+2023-03-13,Nicaragua,Dominican Rep.,0 - 3 ,0,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,1,5,1,L
+2023-03-13,Colombia,Great Britain,1 - 1 ,0,1,0,2,0,0,0,0,2,X,X,X,X,X,X,X,N,5,7,2,L
+2023-03-13,Great Britain,Colombia,1 - 2 ,0,0,0,3,2,0,2,0,X,X,X,X,X,X,X,X,N,7,7,2,W
+2023-03-13,Israel,Puerto Rico,1 - 1 ,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,X,N,0,0,2,L
+2023-03-13,Puerto Rico,Israel,2 - 1 ,3,3,0,0,3,0,0,1,X,X,X,X,X,X,X,X,N,10,11,0,W
+2023-03-13,Canada,United States,1 - 1 ,0,1,0,0,0,0,0,X,X,X,X,X,X,X,X,X,N,1,5,0,L
+2023-03-13,United States,Canada,2 - 1 ,9,3,0,0,0,0,X,X,X,X,X,X,X,X,X,X,N,12,10,0,W
+2023-03-13,Tigers,Orioles,10 - 9 ,1,0,0,0,1,1,0,4,0,X,X,X,X,X,X,X,N,7,8,0,L
+2023-03-13,Orioles,Tigers,7 - 9 ,2,0,0,2,1,2,1,3,X,X,X,X,X,X,X,X,N,11,15,2,W
+2023-03-13,Astros,Nationals,7 - 5 ,0,0,3,0,0,1,0,2,0,X,X,X,X,X,X,X,N,6,13,0,L
+2023-03-13,Nationals,Astros,6 - 8 ,1,0,0,0,0,1,0,5,X,X,X,X,X,X,X,X,N,7,9,1,W
+2023-03-13,Tigers,Rays,10 - 9 ,1,0,0,0,2,0,0,2,0,X,X,X,X,X,X,X,N,5,9,0,L
+2023-03-13,Rays,Tigers,8 - 7 ,0,3,6,0,0,0,0,0,X,X,X,X,X,X,X,X,N,9,8,2,W
+2023-03-13,Orioles,Braves,7 - 9 ,0,0,0,0,0,5,0,X,X,X,X,X,X,X,X,X,N,5,8,1,L
+2023-03-13,Braves,Orioles,7 - 7 ,0,0,1,3,0,2,X,X,X,X,X,X,X,X,X,X,N,6,10,0,W
+2023-03-13,Yankees,Twins,8 - 9 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,1,L
+2023-03-13,Twins,Yankees,8 - 7 ,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,X,N,1,4,0,W
+2023-03-13,Red Sox,Blue Jays,9 - 4 ,0,3,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,3,3,3,L
+2023-03-13,Blue Jays,Red Sox,11 - 6 ,2,0,4,3,3,3,1,0,X,X,X,X,X,X,X,X,N,16,18,1,W
+2023-03-13,Mets,Marlins,7 - 8 ,0,0,2,0,4,0,1,0,2,X,X,X,X,X,X,X,N,9,11,0,W
+2023-03-13,Marlins,Mets,3 - 11 ,0,0,0,0,0,3,0,0,0,X,X,X,X,X,X,X,N,3,7,0,L
+2023-03-13,Guardians,Dodgers,5 - 10 ,1,2,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,4,8,2,L
+2023-03-13,Dodgers,Guardians,10 - 4 ,2,0,0,3,3,0,3,0,X,X,X,X,X,X,X,X,N,11,13,2,W
+2023-03-13,D-backs,Rangers,7 - 10 ,4,0,1,0,2,0,0,4,0,X,X,X,X,X,X,X,N,11,13,1,W
+2023-03-13,Rangers,D-backs,7 - 11 ,0,1,0,2,0,0,3,2,0,X,X,X,X,X,X,X,N,8,11,1,L
+2023-03-13,Brewers,Reds,7 - 9 ,2,0,1,1,2,0,1,1,0,X,X,X,X,X,X,X,N,8,19,1,W
+2023-03-13,Reds,Brewers,8 - 10 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,1,L
+2023-03-13,Athletics,Rockies,7 - 9 ,1,1,0,6,0,0,0,0,0,X,X,X,X,X,X,X,N,8,12,1,W
+2023-03-13,Rockies,Athletics,6 - 10 ,3,0,0,1,0,0,1,0,2,X,X,X,X,X,X,X,N,7,13,0,L
+2023-03-13,Mariners,Angels,8 - 7 ,0,1,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,2,8,0,L
+2023-03-13,Angels,Mariners,10 - 5 ,0,1,0,1,3,2,1,0,X,X,X,X,X,X,X,X,N,8,13,2,W
+2023-03-13,Giants,Padres,6 - 11 ,2,0,1,0,3,3,1,1,0,X,X,X,X,X,X,X,N,11,12,3,W
+2023-03-13,Padres,Giants,8 - 10 ,0,2,0,0,2,1,2,2,0,X,X,X,X,X,X,X,N,9,9,0,L

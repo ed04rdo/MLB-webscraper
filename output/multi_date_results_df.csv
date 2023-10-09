@@ -157,14 +157,44 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-03-01,Cubs,Mariners,2 - 4 ,0,0,0,5,0,0,0,0,X,X,X,X,X,X,X,X,N,5,7,0,W
 2023-03-01,D-backs,Giants,2 - 4 ,0,1,0,2,1,2,0,1,1,X,X,X,X,X,X,X,N,8,13,0,W
 2023-03-01,Giants,D-backs,2 - 3 ,0,0,0,0,0,0,1,2,2,X,X,X,X,X,X,X,N,5,8,0,L
-2023-03-01,Dodgers,Rangers,3 - 2 ,1,1,1,0,1,0,0, , ,X,X,X,X,X,X,X,N,4,6,0,W
-2023-03-01,Rangers,Dodgers,3 - 4 ,1,0,0,0,0,0,1, , ,X,X,X,X,X,X,X,N,2,7,1,L
+2023-03-01,Dodgers,Rangers,3 - 2 ,1,1,1,0,1,0,0,X,X,X,X,X,X,X,X,X,N,4,6,0,W
+2023-03-01,Rangers,Dodgers,3 - 4 ,1,0,0,0,0,0,1,X,X,X,X,X,X,X,X,X,N,2,7,1,L
 2023-03-01,Guardians,White Sox,2 - 4 ,2,0,1,1,0,0,4,0,1,X,X,X,X,X,X,X,N,9,9,1,W
 2023-03-01,White Sox,Guardians,2 - 3 ,0,0,0,1,0,0,3,2,X,X,X,X,X,X,X,X,N,6,9,3,L
 2023-03-01,Royals,Rockies,5 - 1 ,0,0,0,2,0,0,1,0,5,X,X,X,X,X,X,X,N,8,11,2,W
 2023-03-01,Rockies,Royals,3 - 2 ,1,3,0,0,0,1,1,0,0,X,X,X,X,X,X,X,N,6,10,1,L
-2023-03-01,Rangers,Padres,3 - 4 ,0,0,0,0,0,0,1, , ,X,X,X,X,X,X,X,N,1,4,0,L
-2023-03-01,Padres,Rangers,4 - 2 ,0,3,0,1,1,0,X, , ,X,X,X,X,X,X,X,N,5,7,1,W
+2023-03-01,Rangers,Padres,3 - 4 ,0,0,0,0,0,0,1,X,X,X,X,X,X,X,X,X,N,1,4,0,L
+2023-03-01,Padres,Rangers,4 - 2 ,0,3,0,1,1,0,X,X,X,X,X,X,X,X,X,X,N,5,7,1,W
+2023-03-02,Phillies,Red Sox,4 - 2 ,0,0,0,1,2,0,0,0,0,X,X,X,X,X,X,X,N,3,5,0,L
+2023-03-02,Red Sox,Phillies,4 - 0 ,0,1,6,0,0,4,4,0,X,X,X,X,X,X,X,X,N,15,12,0,W
+2023-03-02,Orioles,Tigers,2 - 4 ,1,0,0,1,0,1,0,0,0,X,X,X,X,X,X,X,N,3,8,0,L
+2023-03-02,Tigers,Orioles,3 - 3 ,0,0,0,0,5,0,5,0,X,X,X,X,X,X,X,X,N,10,12,1,W
+2023-03-02,Astros,Cardinals,3 - 2 ,0,2,1,0,0,1,1,0,1,X,X,X,X,X,X,X,N,6,11,0,W
+2023-03-02,Cardinals,Astros,3 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,1,L
+2023-03-02,Twins,Rays,3 - 3 ,0,0,1,0,0,0,0,0,3,X,X,X,X,X,X,X,N,4,3,1,W
+2023-03-02,Rays,Twins,2 - 3 ,0,0,0,1,0,0,1,0,0,X,X,X,X,X,X,X,N,2,7,3,L
+2023-03-02,Marlins,Nationals,1 - 4 ,0,1,0,0,0,1,1,2,0,X,X,X,X,X,X,X,N,5,13,2,T
+2023-03-02,Nationals,Marlins,2 - 3 ,0,0,3,0,0,0,0,2,0,X,X,X,X,X,X,X,N,5,10,1,T
+2023-03-02,Yankees,Pirates,5 - 2 ,1,2,0,1,1,0,0,0,4,X,X,X,X,X,X,X,N,9,11,0,W
+2023-03-02,Pirates,Yankees,1 - 4 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,2,2,L
+2023-03-02,Pirates,Blue Jays,1 - 4 ,0,1,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,2,6,0,T
+2023-03-02,Blue Jays,Pirates,3 - 3 ,1,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,7,2,T
+2023-03-02,Braves,Mets,2 - 2 ,0,2,1,0,1,0,2,0,0,X,X,X,X,X,X,X,N,6,8,1,W
+2023-03-02,Mets,Braves,3 - 4 ,0,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,N,2,8,1,L
+2023-03-02,Angels,Royals,4 - 2 ,3,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,4,6,2,L
+2023-03-02,Royals,Angels,6 - 1 ,2,0,0,4,0,0,0,2,X,X,X,X,X,X,X,X,N,8,15,0,W
+2023-03-02,D-backs,Dodgers,2 - 4 ,0,0,1,0,0,0,4,0,0,X,X,X,X,X,X,X,N,5,8,2,T
+2023-03-02,Dodgers,D-backs,3 - 2 ,2,1,1,0,0,1,0,0,0,X,X,X,X,X,X,X,N,5,10,2,T
+2023-03-02,Athletics,Cubs,2 - 3 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,7,0,L
+2023-03-02,Cubs,Athletics,3 - 4 ,2,0,1,2,1,0,0,0,X,X,X,X,X,X,X,X,N,6,8,0,W
+2023-03-02,Giants,Guardians,2 - 4 ,1,0,0,1,0,1,0,0,0,X,X,X,X,X,X,X,N,3,6,2,L
+2023-03-02,Guardians,Giants,3 - 4 ,0,0,3,0,0,0,0,1,X,X,X,X,X,X,X,X,N,4,7,2,W
+2023-03-02,Padres,Mariners,4 - 3 ,1,2,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,4,11,1,L
+2023-03-02,Mariners,Padres,3 - 4 ,0,1,0,1,0,0,0,2,1,X,X,X,X,X,X,X,N,5,11,0,W
+2023-03-02,White Sox,Rockies,3 - 3 ,0,3,0,1,0,0,0,2,0,X,X,X,X,X,X,X,N,6,12,1,W
+2023-03-02,Rockies,White Sox,3 - 3 ,0,0,4,0,0,0,0,0,0,X,X,X,X,X,X,X,N,4,8,0,L
+2023-03-02,Rangers,Brewers,4 - 4 ,0,0,2,3,0,0,0,1,1,X,X,X,X,X,X,X,N,7,11,0,W
+2023-03-02,Brewers,Rangers,3 - 4 ,1,0,0,1,2,0,0,0,0,X,X,X,X,X,X,X,N,4,13,1,L
 2023-03-03,Red Sox,Twins,5 - 0 ,3,0,4,0,1,0,0,1,0,X,X,X,X,X,X,X,N,9,9,2,W
 2023-03-03,Twins,Red Sox,3 - 4 ,0,2,2,0,0,0,0,0,0,X,X,X,X,X,X,X,N,4,5,4,L
 2023-03-03,Tigers,Phillies,5 - 3 ,0,0,3,1,1,0,0,1,0,X,X,X,X,X,X,X,N,6,11,0,W
@@ -499,8 +529,8 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-03-12,Italy,Netherlands,2 - 2 ,0,0,0,6,0,0,0,1,X,X,X,X,X,X,X,X,N,7,12,0,W
 2023-03-12,Nicaragua,Israel,0 - 2 ,0,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,1,4,1,L
 2023-03-12,Israel,Nicaragua,1 - 0 ,0,0,0,0,0,0,0,3,X,X,X,X,X,X,X,X,N,3,7,0,W
-2023-03-12,Great Britain,Canada,0 - 2 ,3,1,1,3,0,0,0, , ,X,X,X,X,X,X,X,N,8,8,2,L
-2023-03-12,Canada,Great Britain,1 - 0 ,5,1,4,6,1,1,X, , ,X,X,X,X,X,X,X,N,18,17,0,W
+2023-03-12,Great Britain,Canada,0 - 2 ,3,1,1,3,0,0,0,X,X,X,X,X,X,X,X,X,N,8,8,2,L
+2023-03-12,Canada,Great Britain,1 - 0 ,5,1,4,6,1,1,X,X,X,X,X,X,X,X,X,X,N,18,17,0,W
 2023-03-12,Venezuela,Puerto Rico,2 - 0 ,4,3,0,1,1,0,0,0,0,X,X,X,X,X,X,X,N,9,12,1,W
 2023-03-12,Puerto Rico,Venezuela,1 - 1 ,0,1,0,0,0,4,0,1,0,X,X,X,X,X,X,X,N,6,7,1,L
 2023-03-12,Mexico,United States,1 - 1 ,2,0,1,4,0,0,0,4,0,X,X,X,X,X,X,X,N,11,15,0,W
@@ -545,18 +575,18 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-03-13,Nicaragua,Dominican Rep.,0 - 3 ,0,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,1,5,1,L
 2023-03-13,Colombia,Great Britain,1 - 1 ,0,1,0,2,0,0,0,0,2,X,X,X,X,X,X,X,N,5,7,2,L
 2023-03-13,Great Britain,Colombia,1 - 2 ,0,0,0,3,2,0,2,0,X,X,X,X,X,X,X,X,N,7,7,2,W
-2023-03-13,Israel,Puerto Rico,1 - 1 ,0,0,0,0,0,0,0,0, ,X,X,X,X,X,X,X,N,0,0,2,L
-2023-03-13,Puerto Rico,Israel,2 - 1 ,3,3,0,0,3,0,0,1, ,X,X,X,X,X,X,X,N,10,11,0,W
-2023-03-13,Canada,United States,1 - 1 ,0,1,0,0,0,0,0, , ,X,X,X,X,X,X,X,N,1,5,0,L
-2023-03-13,United States,Canada,2 - 1 ,9,3,0,0,0,0,X, , ,X,X,X,X,X,X,X,N,12,10,0,W
+2023-03-13,Israel,Puerto Rico,1 - 1 ,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,X,N,0,0,2,L
+2023-03-13,Puerto Rico,Israel,2 - 1 ,3,3,0,0,3,0,0,1,X,X,X,X,X,X,X,X,N,10,11,0,W
+2023-03-13,Canada,United States,1 - 1 ,0,1,0,0,0,0,0,X,X,X,X,X,X,X,X,X,N,1,5,0,L
+2023-03-13,United States,Canada,2 - 1 ,9,3,0,0,0,0,X,X,X,X,X,X,X,X,X,X,N,12,10,0,W
 2023-03-13,Tigers,Orioles,10 - 9 ,1,0,0,0,1,1,0,4,0,X,X,X,X,X,X,X,N,7,8,0,L
 2023-03-13,Orioles,Tigers,7 - 9 ,2,0,0,2,1,2,1,3,X,X,X,X,X,X,X,X,N,11,15,2,W
 2023-03-13,Astros,Nationals,7 - 5 ,0,0,3,0,0,1,0,2,0,X,X,X,X,X,X,X,N,6,13,0,L
 2023-03-13,Nationals,Astros,6 - 8 ,1,0,0,0,0,1,0,5,X,X,X,X,X,X,X,X,N,7,9,1,W
 2023-03-13,Tigers,Rays,10 - 9 ,1,0,0,0,2,0,0,2,0,X,X,X,X,X,X,X,N,5,9,0,L
 2023-03-13,Rays,Tigers,8 - 7 ,0,3,6,0,0,0,0,0,X,X,X,X,X,X,X,X,N,9,8,2,W
-2023-03-13,Orioles,Braves,7 - 9 ,0,0,0,0,0,5,0, , ,X,X,X,X,X,X,X,N,5,8,1,L
-2023-03-13,Braves,Orioles,7 - 7 ,0,0,1,3,0,2,X, , ,X,X,X,X,X,X,X,N,6,10,0,W
+2023-03-13,Orioles,Braves,7 - 9 ,0,0,0,0,0,5,0,X,X,X,X,X,X,X,X,X,N,5,8,1,L
+2023-03-13,Braves,Orioles,7 - 7 ,0,0,1,3,0,2,X,X,X,X,X,X,X,X,X,X,N,6,10,0,W
 2023-03-13,Yankees,Twins,8 - 9 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,1,L
 2023-03-13,Twins,Yankees,8 - 7 ,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,X,N,1,4,0,W
 2023-03-13,Red Sox,Blue Jays,9 - 4 ,0,3,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,3,3,3,L
@@ -579,8 +609,8 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-03-14,Venezuela,Nicaragua,3 - 0 ,0,0,0,3,1,0,0,0,X,X,X,X,X,X,X,X,N,4,7,0,W
 2023-03-14,Canada,Colombia,2 - 1 ,0,0,0,1,0,0,0,1,3,X,X,X,X,X,X,X,N,5,10,0,W
 2023-03-14,Colombia,Canada,1 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,5,0,L
-2023-03-14,Israel,Dominican Rep.,1 - 2 ,0,0,0,0,0,0,0, , ,X,X,X,X,X,X,X,N,0,1,1,L
-2023-03-14,Dominican Rep.,Israel,2 - 1 ,1,0,2,0,0,4,3, , ,X,X,X,X,X,X,X,N,10,15,0,W
+2023-03-14,Israel,Dominican Rep.,1 - 2 ,0,0,0,0,0,0,0,X,X,X,X,X,X,X,X,X,N,0,1,1,L
+2023-03-14,Dominican Rep.,Israel,2 - 1 ,1,0,2,0,0,4,3,X,X,X,X,X,X,X,X,X,N,10,15,0,W
 2023-03-14,Great Britain,Mexico,1 - 3 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,1,4,1,L
 2023-03-14,Mexico,Great Britain,2 - 1 ,0,1,0,0,0,0,1,0,X,X,X,X,X,X,X,X,N,2,7,0,W
 2023-03-14,Red Sox,Tigers,9 - 5 ,1,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,2,6,1,L
@@ -767,8 +797,8 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-03-19,Rangers,Mariners,11 - 12 ,1,0,0,1,0,0,0,0,X,X,X,X,X,X,X,X,N,2,7,0,W
 2023-03-19,Royals,D-backs,16 - 9 ,0,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,N,2,8,5,L
 2023-03-19,D-backs,Royals,11 - 11 ,0,10,1,0,0,0,0,2,X,X,X,X,X,X,X,X,N,13,14,1,W
-2023-03-19,Rockies,Royals,9 - 14 ,0,2,2,0,3,0, , , ,X,X,X,X,X,X,X,N,7,8,0,W
-2023-03-19,Royals,Rockies,16 - 9 ,0,0,0,0,0,X, , , ,X,X,X,X,X,X,X,N,0,6,0,L
+2023-03-19,Rockies,Royals,9 - 14 ,0,2,2,0,3,0,X,X,X,X,X,X,X,X,X,X,N,7,8,0,W
+2023-03-19,Royals,Rockies,16 - 9 ,0,0,0,0,0,X,X,X,X,X,X,X,X,X,X,X,N,0,6,0,L
 2023-03-19,White Sox,Mariners,9 - 8 ,0,0,0,0,3,2,1,0,0,X,X,X,X,X,X,X,N,6,10,0,W
 2023-03-19,Mariners,White Sox,10 - 10 ,1,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,2,5,2,L
 2023-03-19,Reds,Brewers,11 - 11 ,1,0,0,0,0,1,0,0,1,X,X,X,X,X,X,X,N,3,9,1,L
@@ -821,8 +851,8 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-03-21,Brewers,White Sox,9 - 13 ,0,2,0,0,0,0,0,0,3,X,X,X,X,X,X,X,N,5,6,0,L
 2023-03-21,Rays,Twins,13 - 11 ,0,0,2,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,7,1,L
 2023-03-21,Twins,Rays,9 - 12 ,2,0,0,0,3,0,0,0,X,X,X,X,X,X,X,X,N,5,4,0,W
-2023-03-21,Cubs,Royals,12 - 10 ,2,1,0,0,1,0,2, , ,X,X,X,X,X,X,X,N,6,8,0,W
-2023-03-21,Royals,Cubs,16 - 10 ,0,0,2,0,0,0,X, , ,X,X,X,X,X,X,X,N,2,4,0,L
+2023-03-21,Cubs,Royals,12 - 10 ,2,1,0,0,1,0,2,X,X,X,X,X,X,X,X,X,N,6,8,0,W
+2023-03-21,Royals,Cubs,16 - 10 ,0,0,2,0,0,0,X,X,X,X,X,X,X,X,X,X,N,2,4,0,L
 2023-03-21,Rockies,Padres,10 - 15 ,0,0,0,0,0,0,2,0,0,X,X,X,X,X,X,X,N,2,7,2,L
 2023-03-21,Padres,Rockies,11 - 12 ,3,4,0,1,0,0,0,6,X,X,X,X,X,X,X,X,N,14,19,0,W
 2023-03-22,Phillies,Rays,13 - 12 ,0,0,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,2,6,0,L
@@ -1129,36 +1159,6 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-04-02,Mariners,Guardians,1 - 3 ,1,0,3,0,1,0,0,0,0,0,X,X,X,X,X,X,Y,5,9,1,L
 2023-04-02,Phillies,Rangers,0 - 3 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,1,9,0,L
 2023-04-02,Rangers,Phillies,3 - 0 ,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,X,N,2,8,0,W
-2023-03-02,Phillies,Red Sox,4 - 2 ,0,0,0,1,2,0,0,0,0,X,X,X,X,X,X,X,N,3,5,0,L
-2023-03-02,Red Sox,Phillies,4 - 0 ,0,1,6,0,0,4,4,0,X,X,X,X,X,X,X,X,N,15,12,0,W
-2023-03-02,Orioles,Tigers,2 - 4 ,1,0,0,1,0,1,0,0,0,X,X,X,X,X,X,X,N,3,8,0,L
-2023-03-02,Tigers,Orioles,3 - 3 ,0,0,0,0,5,0,5,0,X,X,X,X,X,X,X,X,N,10,12,1,W
-2023-03-02,Astros,Cardinals,3 - 2 ,0,2,1,0,0,1,1,0,1,X,X,X,X,X,X,X,N,6,11,0,W
-2023-03-02,Cardinals,Astros,3 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,1,L
-2023-03-02,Twins,Rays,3 - 3 ,0,0,1,0,0,0,0,0,3,X,X,X,X,X,X,X,N,4,3,1,W
-2023-03-02,Rays,Twins,2 - 3 ,0,0,0,1,0,0,1,0,0,X,X,X,X,X,X,X,N,2,7,3,L
-2023-03-02,Marlins,Nationals,1 - 4 ,0,1,0,0,0,1,1,2,0,X,X,X,X,X,X,X,N,5,13,2,T
-2023-03-02,Nationals,Marlins,2 - 3 ,0,0,3,0,0,0,0,2,0,X,X,X,X,X,X,X,N,5,10,1,T
-2023-03-02,Yankees,Pirates,5 - 2 ,1,2,0,1,1,0,0,0,4,X,X,X,X,X,X,X,N,9,11,0,W
-2023-03-02,Pirates,Yankees,1 - 4 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,2,2,L
-2023-03-02,Pirates,Blue Jays,1 - 4 ,0,1,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,2,6,0,T
-2023-03-02,Blue Jays,Pirates,3 - 3 ,1,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,7,2,T
-2023-03-02,Braves,Mets,2 - 2 ,0,2,1,0,1,0,2,0,0,X,X,X,X,X,X,X,N,6,8,1,W
-2023-03-02,Mets,Braves,3 - 4 ,0,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,N,2,8,1,L
-2023-03-02,Angels,Royals,4 - 2 ,3,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,4,6,2,L
-2023-03-02,Royals,Angels,6 - 1 ,2,0,0,4,0,0,0,2,X,X,X,X,X,X,X,X,N,8,15,0,W
-2023-03-02,D-backs,Dodgers,2 - 4 ,0,0,1,0,0,0,4,0,0,X,X,X,X,X,X,X,N,5,8,2,T
-2023-03-02,Dodgers,D-backs,3 - 2 ,2,1,1,0,0,1,0,0,0,X,X,X,X,X,X,X,N,5,10,2,T
-2023-03-02,Athletics,Cubs,2 - 3 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,7,0,L
-2023-03-02,Cubs,Athletics,3 - 4 ,2,0,1,2,1,0,0,0,X,X,X,X,X,X,X,X,N,6,8,0,W
-2023-03-02,Giants,Guardians,2 - 4 ,1,0,0,1,0,1,0,0,0,X,X,X,X,X,X,X,N,3,6,2,L
-2023-03-02,Guardians,Giants,3 - 4 ,0,0,3,0,0,0,0,1,X,X,X,X,X,X,X,X,N,4,7,2,W
-2023-03-02,Padres,Mariners,4 - 3 ,1,2,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,4,11,1,L
-2023-03-02,Mariners,Padres,3 - 4 ,0,1,0,1,0,0,0,2,1,X,X,X,X,X,X,X,N,5,11,0,W
-2023-03-02,White Sox,Rockies,3 - 3 ,0,3,0,1,0,0,0,2,0,X,X,X,X,X,X,X,N,6,12,1,W
-2023-03-02,Rockies,White Sox,3 - 3 ,0,0,4,0,0,0,0,0,0,X,X,X,X,X,X,X,N,4,8,0,L
-2023-03-02,Rangers,Brewers,4 - 4 ,0,0,2,3,0,0,0,1,1,X,X,X,X,X,X,X,N,7,11,0,W
-2023-03-02,Brewers,Rangers,3 - 4 ,1,0,0,1,2,0,0,0,0,X,X,X,X,X,X,X,N,4,13,1,L
 2023-04-03,Mets,Brewers,3 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,0,L
 2023-04-03,Brewers,Mets,3 - 1 ,0,0,1,2,7,0,0,0,X,X,X,X,X,X,X,X,N,10,10,0,W
 2023-04-03,Giants,White Sox,2 - 2 ,0,2,1,0,4,0,0,0,5,X,X,X,X,X,X,X,N,12,14,0,W
@@ -1289,7 +1289,7 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-04-08,Cubs,Rangers,4 - 3 ,1,0,1,1,0,2,1,4,X,X,X,X,X,X,X,X,N,10,14,0,W
 2023-04-08,Reds,Phillies,3 - 4 ,1,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,2,8,2,L
 2023-04-08,Phillies,Reds,3 - 5 ,0,0,0,0,0,0,0,0,3,X,X,X,X,X,X,X,N,3,6,0,W
-2023-04-08,Red Sox,Tigers,4 - 4 ,0,6,2,0,0,0,1,3,2,X,X,X,X,X,X,X,N,14,12,3,W
+2023-04-08,Red Sox,Tigers,4 - 4 ,0,6,2,0,0,0,1,3,2,X,X,X,X,X,X,X,N,14,12,2,W
 2023-04-08,Tigers,Red Sox,2 - 6 ,0,0,0,2,0,0,0,0,3,X,X,X,X,X,X,X,N,5,6,0,L
 2023-04-08,Athletics,Rays,2 - 6 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,0,L
 2023-04-08,Rays,Athletics,8 - 0 ,0,0,0,2,3,4,0,2,X,X,X,X,X,X,X,X,N,11,8,0,W
@@ -1833,8 +1833,8 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-04-28,Blue Jays,Mariners,17 - 9 ,0,1,1,0,0,1,0,0,X,X,X,X,X,X,X,X,N,3,8,0,W
 2023-04-28,Guardians,Red Sox,13 - 13 ,2,1,0,1,0,0,0,0,1,X,X,X,X,X,X,X,N,5,8,0,W
 2023-04-28,Red Sox,Guardians,13 - 14 ,0,1,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,2,8,0,L
-2023-04-28,Braves,Mets,18 - 9 ,0,0,0,0,4, , , , ,X,X,X,X,X,X,X,N,4,5,0,W
-2023-04-28,Mets,Braves,15 - 12 ,0,0,0,0,0, , , , ,X,X,X,X,X,X,X,N,0,3,0,L
+2023-04-28,Braves,Mets,18 - 9 ,0,0,0,0,4,X,X,X,X,X,X,X,X,X,X,X,N,4,5,0,W
+2023-04-28,Mets,Braves,15 - 12 ,0,0,0,0,0,X,X,X,X,X,X,X,X,X,X,X,N,0,3,0,L
 2023-04-28,Rays,White Sox,22 - 5 ,1,0,0,1,0,0,0,0,1,X,X,X,X,X,X,X,N,3,9,0,W
 2023-04-28,White Sox,Rays,7 - 20 ,1,1,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,7,0,L
 2023-04-28,Yankees,Rangers,15 - 12 ,0,0,0,0,1,1,0,0,0,X,X,X,X,X,X,X,N,2,5,0,L
@@ -4503,7 +4503,7 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-08-09,Orioles,Astros,70 - 44 ,0,0,0,2,0,0,0,0,0,X,X,X,X,X,X,X,N,2,7,0,L
 2023-08-09,Braves,Pirates,72 - 40 ,0,1,1,2,0,1,0,1,0,X,X,X,X,X,X,X,N,6,15,1,W
 2023-08-09,Pirates,Braves,51 - 63 ,0,0,0,4,0,0,1,0,0,X,X,X,X,X,X,X,N,5,10,0,L
-2023-08-09,Royals,Red Sox,37 - 79 ,0,1,0,1,0,0,0,0,1,X,X,X,X,X,X,X,N,3,7,1,L
+2023-08-09,Royals,Red Sox,37 - 79 ,0,1,0,1,0,0,0,0,1,X,X,X,X,X,X,X,N,3,7,0,L
 2023-08-09,Red Sox,Royals,59 - 55 ,0,1,0,3,0,0,0,0,X,X,X,X,X,X,X,X,N,4,7,1,W
 2023-08-09,Cubs,Mets,59 - 56 ,1,1,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,3,7,0,L
 2023-08-09,Mets,Cubs,52 - 62 ,0,0,0,2,0,2,0,0,X,X,X,X,X,X,X,X,N,4,8,0,W
@@ -4646,7 +4646,7 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-08-15,Astros,Marlins,69 - 52 ,0,0,0,2,2,1,1,0,0,X,X,X,X,X,X,X,N,6,8,2,W
 2023-08-15,Marlins,Astros,63 - 58 ,0,1,2,1,1,0,0,0,0,X,X,X,X,X,X,X,N,5,8,1,L
 2023-08-15,Red Sox,Nationals,63 - 56 ,1,0,2,2,0,0,0,0,0,X,X,X,X,X,X,X,N,5,7,0,W
-2023-08-15,Nationals,Red Sox,53 - 67 ,0,0,4,0,0,0,0,0,0,X,X,X,X,X,X,X,N,4,6,1,L
+2023-08-15,Nationals,Red Sox,53 - 67 ,0,0,4,0,0,0,0,0,0,X,X,X,X,X,X,X,N,4,6,0,L
 2023-08-15,Phillies,Blue Jays,65 - 55 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,1,4,0,L
 2023-08-15,Blue Jays,Phillies,67 - 54 ,0,0,0,0,0,1,0,1,X,X,X,X,X,X,X,X,N,2,4,0,W
 2023-08-15,Pirates,Mets,54 - 66 ,0,1,0,0,0,0,6,0,0,X,X,X,X,X,X,X,N,7,9,0,W
@@ -4744,7 +4744,7 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-08-18,Marlins,Dodgers,64 - 59 ,1,0,6,3,1,0,0,0,0,X,X,X,X,X,X,X,N,11,9,0,W
 2023-08-18,Dodgers,Marlins,74 - 47 ,1,0,0,1,1,0,0,0,0,X,X,X,X,X,X,X,N,3,10,0,L
 2023-08-19,Red Sox,Yankees,65 - 58 ,0,4,0,2,0,0,0,1,1,X,X,X,X,X,X,X,N,8,12,1,W
-2023-08-19,Yankees,Red Sox,60 - 63 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,1,2,1,L
+2023-08-19,Yankees,Red Sox,60 - 63 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,1,2,0,L
 2023-08-19,Royals,Cubs,40 - 85 ,0,1,0,0,0,1,1,1,0,X,X,X,X,X,X,X,N,4,10,1,L
 2023-08-19,Cubs,Royals,63 - 59 ,2,1,1,2,0,0,0,0,X,X,X,X,X,X,X,X,N,6,9,0,W
 2023-08-19,Marlins,Dodgers,64 - 60 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,1,5,1,L
@@ -5310,7 +5310,7 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-09-09,D-backs,Cubs,75 - 68 ,0,0,0,0,1,0,0,0,0,2,X,X,X,X,X,X,Y,3,8,0,W
 2023-09-09,Cubs,D-backs,76 - 67 ,0,0,1,0,0,0,0,0,0,1,X,X,X,X,X,X,Y,2,8,1,L
 2023-09-09,Royals,Blue Jays,44 - 99 ,0,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,1,2,0,L
-2023-09-09,Blue Jays,Royals,79 - 63 ,0,0,0,1,2,1,1,0,X,X,X,X,X,X,X,X,N,5,8,1,W
+2023-09-09,Blue Jays,Royals,79 - 63 ,0,0,0,1,2,1,1,0,X,X,X,X,X,X,X,X,N,5,8,0,W
 2023-09-09,Dodgers,Nationals,86 - 55 ,1,0,0,0,0,0,1,2,1,1,0,X,X,X,X,X,Y,6,9,2,L
 2023-09-09,Nationals,Dodgers,64 - 78 ,1,0,0,0,2,0,2,0,0,1,1,X,X,X,X,X,Y,7,8,1,W
 2023-09-09,Mariners,Rays,79 - 63 ,3,1,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,5,6,1,L
@@ -5392,11 +5392,11 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-09-12,Yankees,Red Sox,72 - 72 ,0,0,0,0,0,3,0,0,0,X,X,X,X,X,X,X,N,3,5,0,W
 2023-09-12,Red Sox,Yankees,73 - 71 ,0,0,0,2,0,0,0,0,0,X,X,X,X,X,X,X,N,2,7,0,L
 2023-09-12,Yankees,Red Sox,73 - 72 ,0,0,0,0,1,1,0,0,2,X,X,X,X,X,X,X,N,4,9,0,W
-2023-09-12,Red Sox,Yankees,73 - 72 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,6,1,L
+2023-09-12,Red Sox,Yankees,73 - 72 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,6,0,L
 2023-09-12,Royals,White Sox,44 - 101 ,0,0,0,1,0,0,0,1,0,X,X,X,X,X,X,X,N,2,7,0,L
 2023-09-12,White Sox,Royals,56 - 88 ,5,0,0,0,0,1,0,0,X,X,X,X,X,X,X,X,N,6,9,0,W
 2023-09-12,Royals,White Sox,45 - 101 ,4,4,1,0,0,0,1,0,1,X,X,X,X,X,X,X,N,11,12,2,W
-2023-09-12,White Sox,Royals,56 - 89 ,0,0,0,0,1,8,0,0,1,X,X,X,X,X,X,X,N,10,10,2,L
+2023-09-12,White Sox,Royals,56 - 89 ,0,0,0,0,1,8,0,0,1,X,X,X,X,X,X,X,N,10,10,1,L
 2023-09-12,Nationals,Pirates,65 - 80 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,1,6,0,L
 2023-09-12,Pirates,Nationals,67 - 78 ,0,2,0,0,2,0,1,0,X,X,X,X,X,X,X,X,N,5,11,0,W
 2023-09-12,Cardinals,Orioles,64 - 81 ,1,1,0,1,0,0,2,0,0,X,X,X,X,X,X,X,N,5,9,1,W
@@ -5469,9 +5469,9 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-09-14,Orioles,Rays,91 - 55 ,0,1,0,1,1,0,0,0,0,X,X,X,X,X,X,X,N,3,4,0,L
 2023-09-14,Twins,White Sox,77 - 70 ,0,0,0,2,0,0,4,0,4,X,X,X,X,X,X,X,N,10,10,0,W
 2023-09-14,White Sox,Twins,56 - 91 ,0,0,0,0,0,0,2,0,0,X,X,X,X,X,X,X,N,2,6,1,L
-2023-09-15,Yankees,Pirates,75 - 73 ,0,1,0,0,0,2,0,0,4,X,X,X,X,X,X,X,N,7,11,0,W
-2023-09-15,Pirates,Yankees,69 - 79 ,1,1,0,0,0,3,0,0,0,X,X,X,X,X,X,X,N,5,10,1,L
-2023-09-15,Braves,Marlins,96 - 51 ,0,0,2,1,1,2,0,0,0,X,X,X,X,X,X,X,N,6,11,1,L
+2023-09-15,Yankees,Pirates,75 - 73 ,0,1,0,0,0,2,0,0,4,X,X,X,X,X,X,X,N,7,11,1,W
+2023-09-15,Pirates,Yankees,69 - 79 ,1,1,0,0,0,3,0,0,0,X,X,X,X,X,X,X,N,5,9,1,L
+2023-09-15,Braves,Marlins,96 - 51 ,0,0,2,1,1,2,0,0,0,X,X,X,X,X,X,X,N,6,11,0,L
 2023-09-15,Marlins,Braves,76 - 72 ,3,1,0,0,0,0,5,0,X,X,X,X,X,X,X,X,N,9,13,0,W
 2023-09-15,Rays,Orioles,92 - 57 ,0,0,0,2,1,4,0,0,0,X,X,X,X,X,X,X,N,7,13,1,W
 2023-09-15,Orioles,Rays,91 - 56 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,1,2,0,L
@@ -5507,8 +5507,8 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-09-16,Blue Jays,Red Sox,82 - 67 ,0,0,0,0,0,0,1,0,1,0,0,1,1,X,X,X,Y,4,8,1,W
 2023-09-16,Padres,Athletics,71 - 78 ,2,0,0,1,2,0,0,0,0,X,X,X,X,X,X,X,N,5,6,1,W
 2023-09-16,Athletics,Padres,46 - 102 ,0,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,N,2,9,2,L
-2023-09-16,Braves,Marlins,96 - 52 ,3,0,0,0,1,1,0,0,0,X,X,X,X,X,X,X,N,5,9,1,L
-2023-09-16,Marlins,Braves,77 - 72 ,4,0,1,0,0,0,0,6,X,X,X,X,X,X,X,X,N,11,13,0,W
+2023-09-16,Braves,Marlins,96 - 52 ,3,0,0,0,1,1,0,0,0,X,X,X,X,X,X,X,N,5,9,0,L
+2023-09-16,Marlins,Braves,77 - 72 ,4,0,1,0,0,0,0,6,X,X,X,X,X,X,X,X,N,11,14,0,W
 2023-09-16,Rangers,Guardians,82 - 66 ,0,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,1,6,0,L
 2023-09-16,Guardians,Rangers,71 - 78 ,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,X,N,2,11,0,W
 2023-09-16,Yankees,Pirates,76 - 73 ,3,0,1,0,0,1,0,1,0,X,X,X,X,X,X,X,N,6,9,0,W
@@ -5539,8 +5539,8 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-09-17,Blue Jays,Red Sox,83 - 67 ,0,1,0,0,1,0,0,0,1,X,X,X,X,X,X,X,N,3,7,1,W
 2023-09-17,Reds,Mets,78 - 73 ,1,0,0,0,1,0,0,2,0,X,X,X,X,X,X,X,N,4,9,3,L
 2023-09-17,Mets,Reds,69 - 80 ,0,0,3,0,1,0,4,0,X,X,X,X,X,X,X,X,N,8,13,0,W
-2023-09-17,Rangers,Guardians,82 - 67 ,0,1,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,2,7,0,L
-2023-09-17,Guardians,Rangers,72 - 78 ,0,0,0,9,0,0,0,0,X,X,X,X,X,X,X,X,N,9,11,1,W
+2023-09-17,Rangers,Guardians,82 - 67 ,0,1,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,2,8,0,L
+2023-09-17,Guardians,Rangers,72 - 78 ,0,0,0,9,0,0,0,0,X,X,X,X,X,X,X,X,N,9,11,0,W
 2023-09-17,Braves,Marlins,96 - 53 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,2,9,1,L
 2023-09-17,Marlins,Braves,78 - 72 ,0,0,5,0,1,4,4,2,X,X,X,X,X,X,X,X,N,16,17,0,W
 2023-09-17,Astros,Royals,84 - 66 ,0,0,2,1,1,0,0,0,3,X,X,X,X,X,X,X,N,7,8,1,W
@@ -5621,7 +5621,7 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-09-20,Nationals,White Sox,68 - 85 ,1,3,4,2,2,0,0,1,X,X,X,X,X,X,X,X,N,13,14,1,W
 2023-09-20,Red Sox,Rangers,75 - 78 ,3,1,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,5,11,1,L
 2023-09-20,Rangers,Red Sox,84 - 68 ,0,6,2,2,3,2,0,0,X,X,X,X,X,X,X,X,N,15,16,0,W
-2023-09-20,Orioles,Astros,95 - 57 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,6,1,L
+2023-09-20,Orioles,Astros,95 - 57 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,6,0,L
 2023-09-20,Astros,Orioles,85 - 68 ,0,0,0,0,0,0,0,1,1,X,X,X,X,X,X,X,N,2,5,0,W
 2023-09-20,Guardians,Royals,72 - 81 ,0,0,0,2,0,0,0,0,0,X,X,X,X,X,X,X,N,2,8,3,L
 2023-09-20,Royals,Guardians,51 - 102 ,3,0,0,1,0,0,1,1,X,X,X,X,X,X,X,X,N,6,10,0,W
@@ -5643,3 +5643,319 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-09-20,Cardinals,Brewers,67 - 85 ,1,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,2,6,0,L
 2023-09-20,Tigers,Dodgers,71 - 81 ,0,1,1,0,0,0,1,1,0,X,X,X,X,X,X,X,N,4,7,1,W
 2023-09-20,Dodgers,Tigers,93 - 58 ,0,0,0,0,0,1,0,1,0,X,X,X,X,X,X,X,N,2,3,2,L
+2023-09-21,Angels,Rays,69 - 84 ,0,0,0,2,0,2,0,0,0,X,X,X,X,X,X,X,N,4,10,0,L
+2023-09-21,Rays,Angels,94 - 60 ,1,0,0,1,0,1,0,0,2,X,X,X,X,X,X,X,N,5,9,1,W
+2023-09-21,Brewers,Cardinals,87 - 66 ,0,0,1,0,1,4,0,0,0,X,X,X,X,X,X,X,N,6,10,0,W
+2023-09-21,Cardinals,Brewers,67 - 86 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,6,2,L
+2023-09-21,Braves,Nationals,98 - 55 ,0,0,5,0,1,0,1,1,2,X,X,X,X,X,X,X,N,10,18,0,W
+2023-09-21,Nationals,Braves,68 - 86 ,0,0,1,0,0,0,0,0,2,X,X,X,X,X,X,X,N,3,8,0,L
+2023-09-21,Blue Jays,Yankees,85 - 68 ,0,0,0,0,0,0,0,1,2,X,X,X,X,X,X,X,N,3,4,0,L
+2023-09-21,Yankees,Blue Jays,77 - 76 ,3,0,0,0,0,1,1,0,X,X,X,X,X,X,X,X,N,5,10,1,W
+2023-09-21,Orioles,Guardians,95 - 58 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,2,7,0,L
+2023-09-21,Guardians,Orioles,73 - 81 ,0,0,0,0,2,0,0,3,X,X,X,X,X,X,X,X,N,5,8,0,W
+2023-09-21,Mets,Phillies,71 - 82 ,0,2,0,1,0,1,0,0,0,X,X,X,X,X,X,X,N,4,8,0,L
+2023-09-21,Phillies,Mets,84 - 69 ,2,0,2,0,0,1,0,0,X,X,X,X,X,X,X,X,N,5,7,1,W
+2023-09-21,Pirates,Cubs,72 - 81 ,0,0,2,0,1,0,0,2,3,X,X,X,X,X,X,X,N,8,11,0,W
+2023-09-21,Cubs,Pirates,79 - 74 ,0,0,0,0,0,0,1,3,2,X,X,X,X,X,X,X,N,6,10,2,L
+2023-09-21,Tigers,Athletics,72 - 81 ,2,0,0,0,3,0,0,2,0,X,X,X,X,X,X,X,N,7,9,0,W
+2023-09-21,Athletics,Tigers,46 - 107 ,0,0,0,0,0,0,0,0,3,X,X,X,X,X,X,X,N,3,5,3,L
+2023-09-21,Giants,Dodgers,76 - 77 ,0,0,0,0,1,1,0,0,0,X,X,X,X,X,X,X,N,2,3,2,L
+2023-09-21,Dodgers,Giants,94 - 58 ,0,0,1,1,0,1,2,2,X,X,X,X,X,X,X,X,N,7,9,0,W
+2023-09-22,Rockies,Cubs,56 - 97 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,6,0,L
+2023-09-22,Cubs,Rockies,80 - 74 ,1,0,0,2,0,2,1,0,X,X,X,X,X,X,X,X,N,6,7,0,W
+2023-09-22,Pirates,Reds,73 - 81 ,0,0,0,1,1,2,2,0,1,X,X,X,X,X,X,X,N,7,8,0,W
+2023-09-22,Reds,Pirates,79 - 76 ,0,1,0,0,2,2,0,0,0,X,X,X,X,X,X,X,N,5,7,2,L
+2023-09-22,Blue Jays,Rays,86 - 68 ,0,0,0,0,0,4,0,0,2,X,X,X,X,X,X,X,N,6,8,0,W
+2023-09-22,Rays,Blue Jays,94 - 61 ,1,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,2,8,0,L
+2023-09-22,Brewers,Marlins,88 - 66 ,0,12,0,0,1,3,0,0,0,X,X,X,X,X,X,X,N,16,15,1,W
+2023-09-22,Marlins,Brewers,79 - 75 ,0,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,1,5,0,L
+2023-09-22,Mets,Phillies,71 - 83 ,1,0,0,0,1,0,0,1,1,0,X,X,X,X,X,X,Y,4,8,1,L
+2023-09-22,Phillies,Mets,85 - 69 ,0,0,0,0,0,3,1,0,0,1,X,X,X,X,X,X,Y,5,9,0,W
+2023-09-22,Braves,Nationals,99 - 55 ,3,0,1,0,2,0,3,0,0,X,X,X,X,X,X,X,N,9,10,0,W
+2023-09-22,Nationals,Braves,68 - 87 ,0,0,1,2,0,1,0,2,0,X,X,X,X,X,X,X,N,6,10,1,L
+2023-09-22,D-backs,Yankees,81 - 73 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,5,2,L
+2023-09-22,Yankees,D-backs,78 - 76 ,0,0,3,0,3,0,1,0,X,X,X,X,X,X,X,X,N,7,12,1,W
+2023-09-22,Orioles,Guardians,95 - 59 ,2,0,3,0,0,0,1,0,2,X,X,X,X,X,X,X,N,8,10,2,L
+2023-09-22,Guardians,Orioles,74 - 81 ,2,1,0,3,0,0,1,0,2,X,X,X,X,X,X,X,N,9,13,2,W
+2023-09-22,White Sox,Red Sox,58 - 96 ,0,0,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,2,7,0,L
+2023-09-22,Red Sox,White Sox,76 - 78 ,0,0,0,0,1,0,0,2,X,X,X,X,X,X,X,X,N,3,7,0,W
+2023-09-22,Mariners,Rangers,84 - 69 ,0,0,0,0,0,4,0,0,1,X,X,X,X,X,X,X,N,5,8,0,L
+2023-09-22,Rangers,Mariners,85 - 68 ,1,3,0,0,4,0,0,0,X,X,X,X,X,X,X,X,N,8,8,1,W
+2023-09-22,Royals,Astros,52 - 102 ,4,0,0,0,0,3,0,0,0,X,X,X,X,X,X,X,N,7,5,0,W
+2023-09-22,Astros,Royals,85 - 69 ,1,1,0,0,0,0,0,3,0,X,X,X,X,X,X,X,N,5,8,1,L
+2023-09-22,Angels,Twins,69 - 85 ,0,0,0,0,3,0,0,2,1,X,X,X,X,X,X,X,N,6,9,1,L
+2023-09-22,Twins,Angels,82 - 72 ,0,1,0,2,0,1,4,0,X,X,X,X,X,X,X,X,N,8,7,0,W
+2023-09-22,Tigers,Athletics,72 - 82 ,0,0,0,0,2,0,0,0,0,X,X,X,X,X,X,X,N,2,5,1,L
+2023-09-22,Athletics,Tigers,47 - 107 ,1,0,0,0,0,4,3,0,X,X,X,X,X,X,X,X,N,8,9,0,W
+2023-09-22,Cardinals,Padres,67 - 87 ,0,0,0,0,0,1,0,1,0,X,X,X,X,X,X,X,N,2,8,0,L
+2023-09-22,Padres,Cardinals,76 - 78 ,0,1,0,0,0,1,0,2,X,X,X,X,X,X,X,X,N,4,11,0,W
+2023-09-22,Giants,Dodgers,77 - 77 ,0,0,0,2,0,1,0,0,2,X,X,X,X,X,X,X,N,5,8,0,W
+2023-09-22,Dodgers,Giants,94 - 59 ,0,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,1,5,0,L
+2023-09-23,Angels,Twins,70 - 85 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,1,7,0,W
+2023-09-23,Twins,Angels,82 - 73 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,5,1,L
+2023-09-23,Rockies,Cubs,56 - 98 ,0,3,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,3,8,0,L
+2023-09-23,Cubs,Rockies,81 - 74 ,1,0,0,0,1,1,1,2,X,X,X,X,X,X,X,X,N,6,9,1,W
+2023-09-23,Mets,Phillies,71 - 84 ,0,2,0,0,0,0,3,0,0,X,X,X,X,X,X,X,N,5,9,1,L
+2023-09-23,Phillies,Mets,86 - 69 ,0,2,1,0,3,0,1,0,X,X,X,X,X,X,X,X,N,7,11,1,W
+2023-09-23,Tigers,Athletics,72 - 83 ,0,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,6,0,L
+2023-09-23,Athletics,Tigers,48 - 107 ,0,0,2,0,0,0,0,2,X,X,X,X,X,X,X,X,N,4,6,2,W
+2023-09-23,Blue Jays,Rays,86 - 69 ,0,0,0,0,0,4,0,2,0,X,X,X,X,X,X,X,N,6,10,0,L
+2023-09-23,Rays,Blue Jays,95 - 61 ,4,0,0,1,0,0,0,0,2,X,X,X,X,X,X,X,N,7,12,3,W
+2023-09-23,White Sox,Red Sox,59 - 96 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,5,0,W
+2023-09-23,Red Sox,White Sox,76 - 79 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,8,0,L
+2023-09-23,Brewers,Marlins,88 - 67 ,0,0,0,0,0,4,0,0,0,X,X,X,X,X,X,X,N,4,6,1,L
+2023-09-23,Marlins,Brewers,80 - 75 ,3,0,0,1,0,0,0,1,X,X,X,X,X,X,X,X,N,5,8,1,W
+2023-09-23,Orioles,Guardians,96 - 59 ,1,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,2,9,0,W
+2023-09-23,Guardians,Orioles,74 - 82 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,1,1,0,L
+2023-09-23,Pirates,Reds,74 - 81 ,0,0,0,1,0,5,3,4,0,X,X,X,X,X,X,X,N,13,16,0,W
+2023-09-23,Reds,Pirates,79 - 77 ,3,5,1,0,0,0,0,2,1,X,X,X,X,X,X,X,N,12,16,0,L
+2023-09-23,Mariners,Rangers,84 - 70 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,6,0,L
+2023-09-23,Rangers,Mariners,86 - 68 ,0,1,0,1,0,0,0,0,X,X,X,X,X,X,X,X,N,2,7,0,W
+2023-09-23,Royals,Astros,53 - 102 ,1,0,0,0,2,0,0,0,0,X,X,X,X,X,X,X,N,3,7,0,W
+2023-09-23,Astros,Royals,85 - 70 ,0,0,0,0,0,0,1,1,0,X,X,X,X,X,X,X,N,2,6,1,L
+2023-09-23,Cardinals,Padres,68 - 87 ,0,0,0,0,0,0,2,0,0,0,3,X,X,X,X,X,Y,5,6,0,W
+2023-09-23,Padres,Cardinals,76 - 79 ,1,0,0,0,0,0,0,0,1,0,0,X,X,X,X,X,Y,2,6,0,L
+2023-09-23,Giants,Dodgers,77 - 78 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,2,0,L
+2023-09-23,Dodgers,Giants,95 - 59 ,0,1,2,0,2,0,0,2,X,X,X,X,X,X,X,X,N,7,10,0,W
+2023-09-24,Blue Jays,Rays,87 - 69 ,0,5,0,0,0,1,0,1,2,X,X,X,X,X,X,X,N,9,11,0,W
+2023-09-24,Rays,Blue Jays,95 - 62 ,2,0,0,1,0,0,2,0,0,X,X,X,X,X,X,X,N,5,13,0,L
+2023-09-24,Braves,Nationals,99 - 56 ,0,1,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,2,6,0,L
+2023-09-24,Nationals,Braves,69 - 87 ,0,2,0,0,0,1,0,0,X,X,X,X,X,X,X,X,N,3,10,0,W
+2023-09-24,Braves,Nationals,100 - 56 ,0,0,0,4,0,2,2,0,0,X,X,X,X,X,X,X,N,8,10,1,W
+2023-09-24,Nationals,Braves,69 - 88 ,0,0,3,0,0,1,0,0,1,X,X,X,X,X,X,X,N,5,12,1,L
+2023-09-24,White Sox,Red Sox,60 - 96 ,0,0,0,0,2,1,X,X,X,X,X,X,X,X,X,X,N,3,4,1,W
+2023-09-24,Red Sox,White Sox,76 - 80 ,0,1,0,0,0,1,X,X,X,X,X,X,X,X,X,X,N,2,5,0,L
+2023-09-24,D-backs,Yankees,82 - 73 ,2,0,0,0,0,0,3,1,1,X,X,X,X,X,X,X,N,7,8,0,W
+2023-09-24,Yankees,D-backs,78 - 77 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,6,2,L
+2023-09-24,Orioles,Guardians,97 - 59 ,0,3,0,1,1,0,0,0,0,X,X,X,X,X,X,X,N,5,7,0,W
+2023-09-24,Guardians,Orioles,74 - 83 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,1,5,0,L
+2023-09-24,Pirates,Reds,74 - 82 ,0,0,0,0,2,0,0,0,0,X,X,X,X,X,X,X,N,2,7,1,L
+2023-09-24,Reds,Pirates,80 - 77 ,0,0,0,0,0,2,1,1,X,X,X,X,X,X,X,X,N,4,6,0,W
+2023-09-24,Brewers,Marlins,88 - 68 ,0,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,1,8,0,L
+2023-09-24,Marlins,Brewers,81 - 75 ,0,1,3,0,2,0,0,0,X,X,X,X,X,X,X,X,N,6,17,0,W
+2023-09-24,Royals,Astros,54 - 102 ,0,3,3,0,0,0,0,0,0,X,X,X,X,X,X,X,N,6,6,0,W
+2023-09-24,Astros,Royals,85 - 71 ,1,1,2,0,1,0,0,0,0,X,X,X,X,X,X,X,N,5,8,0,L
+2023-09-24,Angels,Twins,70 - 86 ,0,0,2,0,1,0,0,0,0,X,X,X,X,X,X,X,N,3,11,0,L
+2023-09-24,Twins,Angels,83 - 73 ,0,1,1,0,0,2,5,0,X,X,X,X,X,X,X,X,N,9,10,0,W
+2023-09-24,Rockies,Cubs,56 - 99 ,0,0,2,0,0,1,0,0,0,X,X,X,X,X,X,X,N,3,5,0,L
+2023-09-24,Cubs,Rockies,82 - 74 ,0,1,0,0,0,3,0,0,X,X,X,X,X,X,X,X,N,4,7,0,W
+2023-09-24,Mariners,Rangers,84 - 71 ,0,1,1,0,0,3,3,0,0,X,X,X,X,X,X,X,N,8,13,0,L
+2023-09-24,Rangers,Mariners,87 - 68 ,1,0,2,4,0,2,0,0,X,X,X,X,X,X,X,X,N,9,8,0,W
+2023-09-24,Tigers,Athletics,73 - 83 ,0,0,2,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,11,0,W
+2023-09-24,Athletics,Tigers,48 - 108 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,7,1,L
+2023-09-24,Cardinals,Padres,68 - 88 ,0,0,0,0,0,0,2,0,0,X,X,X,X,X,X,X,N,2,6,2,L
+2023-09-24,Padres,Cardinals,77 - 79 ,3,2,1,2,1,3,0,0,X,X,X,X,X,X,X,X,N,12,18,0,W
+2023-09-24,Mets,Phillies,71 - 85 ,0,0,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,2,3,0,L
+2023-09-24,Phillies,Mets,87 - 69 ,0,0,0,4,1,0,0,0,X,X,X,X,X,X,X,X,N,5,6,0,W
+2023-09-24,Giants,Dodgers,77 - 79 ,0,0,0,0,2,0,0,0,0,0,X,X,X,X,X,X,Y,2,8,1,L
+2023-09-24,Dodgers,Giants,96 - 59 ,0,2,0,0,0,0,0,0,0,1,X,X,X,X,X,X,Y,3,6,0,W
+2023-09-25,D-backs,Yankees,82 - 74 ,2,0,0,0,0,0,1,1,0,X,X,X,X,X,X,X,N,4,8,1,L
+2023-09-25,Yankees,D-backs,79 - 77 ,0,0,0,2,0,0,1,3,X,X,X,X,X,X,X,X,N,6,9,0,W
+2023-09-25,Rangers,Angels,88 - 68 ,0,0,0,0,0,3,1,1,0,X,X,X,X,X,X,X,N,5,9,0,W
+2023-09-25,Angels,Rangers,70 - 87 ,0,1,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,8,0,L
+2023-09-25,Astros,Mariners,86 - 71 ,0,3,1,0,0,1,0,0,0,X,X,X,X,X,X,X,N,5,9,0,W
+2023-09-25,Mariners,Astros,84 - 72 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,3,0,L
+2023-09-25,Padres,Giants,77 - 80 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,9,0,L
+2023-09-25,Giants,Padres,78 - 79 ,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,X,N,2,7,0,W
+2023-09-26,Dodgers,Rockies,96 - 60 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,1,9,0,L
+2023-09-26,Rockies,Dodgers,57 - 99 ,3,0,0,0,0,0,1,0,X,X,X,X,X,X,X,X,N,4,9,0,W
+2023-09-26,Dodgers,Rockies,97 - 60 ,0,5,0,0,2,2,1,0,1,X,X,X,X,X,X,X,N,11,18,0,W
+2023-09-26,Rockies,Dodgers,57 - 100 ,0,0,0,0,1,1,0,0,0,X,X,X,X,X,X,X,N,2,7,1,L
+2023-09-26,Reds,Guardians,81 - 77 ,0,0,4,1,3,1,0,0,2,X,X,X,X,X,X,X,N,11,10,0,W
+2023-09-26,Guardians,Reds,74 - 84 ,0,3,3,1,0,0,0,0,0,X,X,X,X,X,X,X,N,7,9,1,L
+2023-09-26,Nationals,Orioles,69 - 89 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,0,L
+2023-09-26,Orioles,Nationals,98 - 59 ,1,0,0,0,0,0,0,0,X,X,X,X,X,X,X,X,N,1,6,0,W
+2023-09-26,Royals,Tigers,54 - 103 ,0,1,0,0,0,1,0,0,1,X,X,X,X,X,X,X,N,3,8,1,L
+2023-09-26,Tigers,Royals,74 - 83 ,0,0,0,0,0,2,0,4,X,X,X,X,X,X,X,X,N,6,7,1,W
+2023-09-26,Pirates,Phillies,74 - 83 ,0,0,0,0,0,0,1,1,0,0,X,X,X,X,X,X,Y,2,5,1,L
+2023-09-26,Phillies,Pirates,88 - 69 ,0,0,0,0,0,2,0,0,0,1,X,X,X,X,X,X,Y,3,5,0,W
+2023-09-26,Yankees,Blue Jays,80 - 77 ,0,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,N,2,5,1,W
+2023-09-26,Blue Jays,Yankees,87 - 70 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,0,L
+2023-09-26,Rays,Red Sox,96 - 62 ,3,0,4,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,13,2,W
+2023-09-26,Red Sox,Rays,76 - 81 ,0,0,0,0,3,2,1,1,0,X,X,X,X,X,X,X,N,7,11,1,L
+2023-09-26,Cubs,Braves,82 - 75 ,0,2,2,1,0,1,0,0,0,X,X,X,X,X,X,X,N,6,13,1,L
+2023-09-26,Braves,Cubs,101 - 56 ,0,0,0,0,0,3,2,2,X,X,X,X,X,X,X,X,N,7,8,0,W
+2023-09-26,Athletics,Twins,48 - 109 ,0,0,0,0,0,0,3,0,0,X,X,X,X,X,X,X,N,3,8,0,L
+2023-09-26,Twins,Athletics,84 - 73 ,5,0,0,0,2,0,4,0,X,X,X,X,X,X,X,X,N,11,8,0,W
+2023-09-26,D-backs,White Sox,83 - 74 ,0,1,2,0,6,2,0,1,3,X,X,X,X,X,X,X,N,15,12,0,W
+2023-09-26,White Sox,D-backs,60 - 97 ,3,1,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,4,9,2,L
+2023-09-26,Cardinals,Brewers,69 - 88 ,0,0,0,2,2,0,0,0,0,X,X,X,X,X,X,X,N,4,5,0,W
+2023-09-26,Brewers,Cardinals,88 - 69 ,0,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,5,1,L
+2023-09-26,Rangers,Angels,88 - 69 ,1,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,N,3,6,0,L
+2023-09-26,Angels,Rangers,71 - 87 ,3,0,0,1,5,0,0,0,X,X,X,X,X,X,X,X,N,9,12,1,W
+2023-09-26,Padres,Giants,78 - 80 ,1,0,1,0,0,0,2,0,0,X,X,X,X,X,X,X,N,4,7,1,W
+2023-09-26,Giants,Padres,78 - 80 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,1,L
+2023-09-26,Astros,Mariners,86 - 72 ,0,0,0,0,0,0,1,0,1,X,X,X,X,X,X,X,N,2,10,3,L
+2023-09-26,Mariners,Astros,85 - 72 ,0,0,2,0,3,0,0,1,X,X,X,X,X,X,X,X,N,6,8,0,W
+2023-09-27,D-backs,White Sox,84 - 74 ,0,0,3,0,0,0,0,0,0,X,X,X,X,X,X,X,N,3,4,0,W
+2023-09-27,White Sox,D-backs,60 - 98 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,8,0,L
+2023-09-27,Marlins,Mets,81 - 76 ,0,0,0,0,0,0,2,0,0,X,X,X,X,X,X,X,N,2,9,0,L
+2023-09-27,Mets,Marlins,72 - 85 ,2,0,2,0,0,2,3,2,X,X,X,X,X,X,X,X,N,11,12,1,W
+2023-09-27,Marlins,Mets,82 - 76 ,1,0,0,1,0,0,0,0,2,X,X,X,X,X,X,X,N,4,7,0,W
+2023-09-27,Mets,Marlins,72 - 86 ,0,1,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,2,6,2,L
+2023-09-27,Reds,Guardians,81 - 78 ,0,0,0,0,0,1,0,2,0,X,X,X,X,X,X,X,N,3,8,0,L
+2023-09-27,Guardians,Reds,75 - 84 ,0,2,1,1,0,0,0,0,X,X,X,X,X,X,X,X,N,4,11,1,W
+2023-09-27,Rays,Red Sox,97 - 62 ,0,1,0,2,0,2,0,0,0,X,X,X,X,X,X,X,N,5,10,0,W
+2023-09-27,Red Sox,Rays,76 - 82 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,0,L
+2023-09-27,Nationals,Orioles,69 - 90 ,0,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,1,6,0,L
+2023-09-27,Orioles,Nationals,99 - 59 ,0,0,2,0,2,1,0,0,X,X,X,X,X,X,X,X,N,5,9,0,W
+2023-09-27,Royals,Tigers,54 - 104 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,4,0,L
+2023-09-27,Tigers,Royals,75 - 83 ,0,1,0,3,2,0,0,2,X,X,X,X,X,X,X,X,N,8,8,0,W
+2023-09-27,Pirates,Phillies,74 - 84 ,3,0,2,0,1,0,0,0,0,X,X,X,X,X,X,X,N,6,11,0,L
+2023-09-27,Phillies,Pirates,89 - 69 ,0,0,0,4,2,0,1,0,X,X,X,X,X,X,X,X,N,7,8,0,W
+2023-09-27,Yankees,Blue Jays,81 - 77 ,0,0,0,2,2,0,2,0,0,X,X,X,X,X,X,X,N,6,9,0,W
+2023-09-27,Blue Jays,Yankees,87 - 71 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,2,0,L
+2023-09-27,Cubs,Braves,82 - 76 ,0,1,2,0,0,0,0,0,1,1,X,X,X,X,X,X,Y,5,7,1,L
+2023-09-27,Braves,Cubs,102 - 56 ,1,0,0,0,0,0,1,1,1,2,X,X,X,X,X,X,Y,6,9,0,W
+2023-09-27,Athletics,Twins,48 - 110 ,0,0,1,0,3,0,0,0,0,X,X,X,X,X,X,X,N,4,9,0,L
+2023-09-27,Twins,Athletics,85 - 73 ,1,1,0,0,0,2,0,2,X,X,X,X,X,X,X,X,N,6,13,0,W
+2023-09-27,Cardinals,Brewers,69 - 89 ,0,1,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,2,8,1,L
+2023-09-27,Brewers,Cardinals,89 - 69 ,0,0,0,0,0,2,1,0,X,X,X,X,X,X,X,X,N,3,7,1,W
+2023-09-27,Dodgers,Rockies,98 - 60 ,0,0,1,0,3,0,0,4,0,X,X,X,X,X,X,X,N,8,12,0,W
+2023-09-27,Rockies,Dodgers,57 - 101 ,0,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,N,2,7,0,L
+2023-09-27,Rangers,Angels,89 - 69 ,1,0,1,0,0,0,0,0,3,X,X,X,X,X,X,X,N,5,10,0,W
+2023-09-27,Angels,Rangers,71 - 88 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,0,L
+2023-09-27,Astros,Mariners,87 - 72 ,0,0,0,4,0,0,3,1,0,X,X,X,X,X,X,X,N,8,14,0,W
+2023-09-27,Mariners,Astros,85 - 73 ,1,0,0,2,0,0,0,0,0,X,X,X,X,X,X,X,N,3,8,1,L
+2023-09-27,Padres,Giants,79 - 80 ,0,0,0,0,1,0,1,0,0,3,X,X,X,X,X,X,Y,5,10,0,W
+2023-09-27,Giants,Padres,78 - 81 ,0,1,0,0,1,0,0,0,0,0,X,X,X,X,X,X,Y,2,5,3,L
+2023-09-28,Royals,Tigers,54 - 104 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,4,0,L
+2023-09-28,Tigers,Royals,75 - 83 ,0,1,0,3,2,0,0,2,X,X,X,X,X,X,X,X,N,8,8,0,W
+2023-09-28,Athletics,Twins,49 - 110 ,0,1,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,2,4,0,W
+2023-09-28,Twins,Athletics,85 - 74 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,1,4,0,L
+2023-09-28,D-backs,White Sox,84 - 75 ,0,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,3,0,L
+2023-09-28,White Sox,D-backs,61 - 98 ,0,2,0,1,0,0,0,0,X,X,X,X,X,X,X,X,N,3,3,0,W
+2023-09-28,Royals,Tigers,54 - 105 ,1,0,2,0,0,0,0,0,0,X,X,X,X,X,X,X,N,3,6,0,L
+2023-09-28,Tigers,Royals,76 - 83 ,0,0,0,0,0,0,7,0,X,X,X,X,X,X,X,X,N,7,10,1,W
+2023-09-28,Cardinals,Brewers,69 - 90 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,6,0,L
+2023-09-28,Brewers,Cardinals,90 - 69 ,1,0,1,0,0,1,0,0,X,X,X,X,X,X,X,X,N,3,8,1,W
+2023-09-28,Pirates,Phillies,75 - 84 ,0,0,1,0,2,0,0,0,0,X,X,X,X,X,X,X,N,3,11,2,W
+2023-09-28,Phillies,Pirates,89 - 70 ,1,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,2,5,0,L
+2023-09-28,Red Sox,Orioles,76 - 83 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,0,L
+2023-09-28,Orioles,Red Sox,100 - 59 ,1,0,0,0,0,0,0,1,X,X,X,X,X,X,X,X,N,2,4,1,W
+2023-09-28,Yankees,Blue Jays,81 - 78 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,7,0,L
+2023-09-28,Blue Jays,Yankees,88 - 71 ,0,0,1,1,1,3,0,0,X,X,X,X,X,X,X,X,N,6,13,0,W
+2023-09-28,Marlins,Mets,82 - 77 ,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,X,N,0,4,1,L
+2023-09-28,Mets,Marlins,73 - 86 ,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,X,N,1,5,0,W
+2023-09-28,Cubs,Braves,82 - 77 ,1,0,0,0,0,1,0,1,0,X,X,X,X,X,X,X,N,3,6,2,L
+2023-09-28,Braves,Cubs,103 - 56 ,2,2,1,0,0,0,0,0,X,X,X,X,X,X,X,X,N,5,6,0,W
+2023-09-28,Dodgers,Rockies,98 - 61 ,2,1,0,0,0,0,1,0,1,X,X,X,X,X,X,X,N,5,12,3,L
+2023-09-28,Rockies,Dodgers,58 - 101 ,1,2,4,2,0,0,4,1,X,X,X,X,X,X,X,X,N,14,18,1,W
+2023-09-28,Rangers,Mariners,89 - 70 ,0,0,1,1,0,0,0,0,0,X,X,X,X,X,X,X,N,2,3,0,L
+2023-09-28,Mariners,Rangers,86 - 73 ,0,0,0,1,0,0,0,0,2,X,X,X,X,X,X,X,N,3,8,0,W
+2023-09-29,Marlins,Pirates,83 - 77 ,0,0,0,0,0,0,0,4,0,X,X,X,X,X,X,X,N,4,10,1,W
+2023-09-29,Pirates,Marlins,75 - 85 ,0,0,1,2,0,0,0,0,0,X,X,X,X,X,X,X,N,3,9,1,L
+2023-09-29,Guardians,Tigers,76 - 84 ,0,3,4,0,0,0,0,0,0,X,X,X,X,X,X,X,N,7,13,0,W
+2023-09-29,Tigers,Guardians,76 - 84 ,0,2,0,2,0,0,0,0,1,X,X,X,X,X,X,X,N,5,13,1,L
+2023-09-29,Red Sox,Orioles,77 - 83 ,0,0,0,0,2,0,0,0,1,X,X,X,X,X,X,X,N,3,4,0,W
+2023-09-29,Orioles,Red Sox,100 - 60 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,1,L
+2023-09-29,Rays,Blue Jays,97 - 63 ,0,0,0,0,0,4,0,0,0,X,X,X,X,X,X,X,N,4,7,3,L
+2023-09-29,Blue Jays,Rays,89 - 71 ,0,1,3,3,1,2,1,0,X,X,X,X,X,X,X,X,N,11,16,0,W
+2023-09-29,Nationals,Braves,70 - 90 ,0,0,0,4,0,3,3,0,0,X,X,X,X,X,X,X,N,10,10,2,W
+2023-09-29,Braves,Nationals,103 - 57 ,1,1,0,0,4,0,0,0,0,X,X,X,X,X,X,X,N,6,17,3,L
+2023-09-29,Padres,White Sox,80 - 80 ,0,0,0,0,1,2,0,0,0,X,X,X,X,X,X,X,N,3,6,0,W
+2023-09-29,White Sox,Padres,61 - 99 ,0,0,0,0,0,0,0,1,1,X,X,X,X,X,X,X,N,2,8,1,L
+2023-09-29,Twins,Rockies,86 - 74 ,1,2,1,0,0,0,2,0,1,X,X,X,X,X,X,X,N,7,14,0,W
+2023-09-29,Rockies,Twins,58 - 102 ,0,1,1,3,1,0,0,0,0,X,X,X,X,X,X,X,N,6,13,0,L
+2023-09-29,Yankees,Royals,81 - 79 ,0,0,0,3,1,1,0,0,0,X,X,X,X,X,X,X,N,5,8,0,L
+2023-09-29,Royals,Yankees,55 - 105 ,9,0,1,0,0,0,2,0,X,X,X,X,X,X,X,X,N,12,15,0,W
+2023-09-29,Cubs,Brewers,82 - 78 ,0,0,0,0,0,0,0,2,1,0,X,X,X,X,X,X,Y,3,6,1,L
+2023-09-29,Brewers,Cubs,91 - 69 ,0,0,0,0,3,0,0,0,0,1,X,X,X,X,X,X,Y,4,8,0,W
+2023-09-29,Reds,Cardinals,82 - 78 ,3,4,0,7,0,0,0,5,0,X,X,X,X,X,X,X,N,19,17,1,W
+2023-09-29,Cardinals,Reds,69 - 91 ,0,0,2,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,6,3,L
+2023-09-29,Athletics,Angels,49 - 111 ,0,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,4,2,L
+2023-09-29,Angels,Athletics,72 - 88 ,0,0,0,3,2,0,0,0,X,X,X,X,X,X,X,X,N,5,9,0,W
+2023-09-29,Astros,D-backs,88 - 72 ,0,0,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,2,8,1,W
+2023-09-29,D-backs,Astros,84 - 76 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,4,0,L
+2023-09-29,Rangers,Mariners,89 - 71 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,0,L
+2023-09-29,Mariners,Rangers,87 - 73 ,0,0,3,5,0,0,0,0,X,X,X,X,X,X,X,X,N,8,6,0,W
+2023-09-29,Dodgers,Giants,99 - 61 ,2,0,1,0,0,3,0,0,0,X,X,X,X,X,X,X,N,6,6,0,W
+2023-09-29,Giants,Dodgers,78 - 82 ,1,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,2,0,L
+2023-09-30,Guardians,Tigers,76 - 85 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,8,2,L
+2023-09-30,Tigers,Guardians,77 - 84 ,0,0,0,1,0,2,5,0,X,X,X,X,X,X,X,X,N,8,8,0,W
+2023-09-30,Rays,Blue Jays,98 - 63 ,1,0,1,0,2,0,0,0,0,3,X,X,X,X,X,X,Y,7,14,1,W
+2023-09-30,Blue Jays,Rays,89 - 72 ,0,0,1,3,0,0,0,0,0,1,X,X,X,X,X,X,Y,5,7,1,L
+2023-09-30,Phillies,Mets,89 - 71 ,0,0,0,0,0,0,0,1,2,X,X,X,X,X,X,X,N,3,7,0,L
+2023-09-30,Mets,Phillies,74 - 86 ,3,1,0,0,0,0,0,0,X,X,X,X,X,X,X,X,N,4,5,0,W
+2023-09-30,Phillies,Mets,89 - 72 ,0,0,0,4,0,0,0,0,0,X,X,X,X,X,X,X,N,4,8,2,L
+2023-09-30,Mets,Phillies,75 - 86 ,0,3,5,2,1,0,0,0,X,X,X,X,X,X,X,X,N,11,10,1,W
+2023-09-30,Marlins,Pirates,84 - 77 ,1,0,1,0,0,2,0,2,1,X,X,X,X,X,X,X,N,7,14,1,W
+2023-09-30,Pirates,Marlins,75 - 86 ,0,1,0,0,1,0,0,1,0,X,X,X,X,X,X,X,N,3,12,0,L
+2023-09-30,Padres,White Sox,81 - 80 ,4,2,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,6,12,0,W
+2023-09-30,White Sox,Padres,61 - 100 ,0,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,1,6,0,L
+2023-09-30,Yankees,Royals,82 - 79 ,0,0,0,2,0,3,0,0,0,X,X,X,X,X,X,X,N,5,12,1,W
+2023-09-30,Royals,Yankees,55 - 106 ,1,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,12,1,L
+2023-09-30,Cubs,Brewers,83 - 78 ,6,0,0,2,1,1,0,0,0,X,X,X,X,X,X,X,N,10,13,1,W
+2023-09-30,Brewers,Cubs,91 - 70 ,3,3,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,6,12,0,L
+2023-09-30,Red Sox,Orioles,77 - 84 ,0,0,0,0,0,0,0,1,1,X,X,X,X,X,X,X,N,2,14,1,L
+2023-09-30,Orioles,Red Sox,101 - 60 ,0,0,0,0,0,0,2,3,X,X,X,X,X,X,X,X,N,5,7,0,W
+2023-09-30,Reds,Cardinals,82 - 79 ,0,0,0,1,4,0,1,0,0,X,X,X,X,X,X,X,N,6,14,1,L
+2023-09-30,Cardinals,Reds,70 - 91 ,5,5,1,0,0,0,0,4,X,X,X,X,X,X,X,X,N,15,13,0,W
+2023-09-30,Rangers,Mariners,90 - 71 ,0,0,4,1,0,0,0,1,0,X,X,X,X,X,X,X,N,6,8,0,W
+2023-09-30,Mariners,Rangers,87 - 74 ,0,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,1,7,0,L
+2023-09-30,Nationals,Braves,70 - 91 ,3,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,3,10,2,L
+2023-09-30,Braves,Nationals,104 - 57 ,0,0,1,0,4,0,0,0,X,X,X,X,X,X,X,X,N,5,11,0,W
+2023-09-30,Astros,D-backs,89 - 72 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,1,6,0,W
+2023-09-30,D-backs,Astros,84 - 77 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,5,0,L
+2023-09-30,Twins,Rockies,87 - 74 ,0,2,4,0,0,5,3,0,0,X,X,X,X,X,X,X,N,14,12,0,W
+2023-09-30,Rockies,Twins,58 - 103 ,0,0,0,0,0,0,4,2,0,X,X,X,X,X,X,X,N,6,11,0,L
+2023-09-30,Dodgers,Giants,99 - 62 ,0,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,1,8,1,L
+2023-09-30,Giants,Dodgers,79 - 82 ,0,0,1,0,0,1,0,0,X,X,X,X,X,X,X,X,N,2,5,0,W
+2023-09-30,Athletics,Angels,50 - 111 ,1,0,0,0,0,0,0,5,1,X,X,X,X,X,X,X,N,7,8,1,W
+2023-09-30,Angels,Athletics,72 - 89 ,0,0,0,0,0,0,3,0,0,X,X,X,X,X,X,X,N,3,3,1,L
+2023-10-01,Red Sox,Orioles,78 - 84 ,0,0,2,0,0,0,4,0,0,X,X,X,X,X,X,X,N,6,5,0,W
+2023-10-01,Orioles,Red Sox,101 - 61 ,0,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,1,2,3,L
+2023-10-01,Dodgers,Giants,100 - 62 ,0,0,0,0,0,5,0,0,0,X,X,X,X,X,X,X,N,5,7,1,W
+2023-10-01,Giants,Dodgers,79 - 83 ,0,0,0,0,0,1,0,1,0,X,X,X,X,X,X,X,N,2,3,0,L
+2023-10-01,Marlins,Pirates,84 - 78 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,3,1,L
+2023-10-01,Pirates,Marlins,76 - 86 ,0,0,0,0,0,0,0,3,X,X,X,X,X,X,X,X,N,3,6,1,W
+2023-10-01,Athletics,Angels,50 - 112 ,0,0,0,0,0,0,1,1,1,X,X,X,X,X,X,X,N,3,10,1,L
+2023-10-01,Angels,Athletics,73 - 89 ,1,0,1,1,3,1,0,0,X,X,X,X,X,X,X,X,N,7,10,1,W
+2023-10-01,Rays,Blue Jays,99 - 63 ,1,7,0,1,1,1,1,0,0,X,X,X,X,X,X,X,N,12,16,2,W
+2023-10-01,Blue Jays,Rays,89 - 73 ,0,3,0,0,0,3,1,1,0,X,X,X,X,X,X,X,N,8,12,0,L
+2023-10-01,Guardians,Tigers,76 - 86 ,0,0,0,1,1,0,0,0,0,X,X,X,X,X,X,X,N,2,5,1,L
+2023-10-01,Tigers,Guardians,78 - 84 ,1,1,1,0,2,0,0,0,X,X,X,X,X,X,X,X,N,5,9,1,W
+2023-10-01,Astros,D-backs,90 - 72 ,4,1,0,0,1,0,2,0,0,X,X,X,X,X,X,X,N,8,9,0,W
+2023-10-01,D-backs,Astros,84 - 78 ,0,0,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,1,6,1,L
+2023-10-01,Rangers,Mariners,90 - 72 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,4,0,L
+2023-10-01,Mariners,Rangers,88 - 74 ,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,X,N,1,4,0,W
+2023-10-01,Twins,Rockies,87 - 75 ,0,2,0,0,0,0,0,0,0,0,0,X,X,X,X,X,Y,2,9,1,L
+2023-10-01,Rockies,Twins,59 - 103 ,0,0,0,1,0,0,0,1,0,0,1,X,X,X,X,X,Y,3,4,1,W
+2023-10-01,Phillies,Mets,90 - 72 ,0,0,1,0,0,1,0,1,6,X,X,X,X,X,X,X,N,9,12,1,W
+2023-10-01,Mets,Phillies,75 - 87 ,0,0,1,0,0,0,0,0,0,X,X,X,X,X,X,X,N,1,2,0,L
+2023-10-01,Nationals,Braves,71 - 91 ,4,1,0,0,0,0,0,2,3,X,X,X,X,X,X,X,N,10,15,0,W
+2023-10-01,Braves,Nationals,104 - 58 ,2,0,3,0,0,0,2,1,1,X,X,X,X,X,X,X,N,9,11,0,L
+2023-10-01,Padres,White Sox,82 - 80 ,0,0,0,0,0,0,0,0,0,1,1,X,X,X,X,X,Y,2,7,1,W
+2023-10-01,White Sox,Padres,61 - 101 ,0,0,0,0,0,0,0,0,0,1,0,X,X,X,X,X,Y,1,7,0,L
+2023-10-01,Yankees,Royals,82 - 80 ,0,0,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,2,7,1,L
+2023-10-01,Royals,Yankees,56 - 106 ,0,2,0,2,1,0,0,0,X,X,X,X,X,X,X,X,N,5,11,0,W
+2023-10-01,Cubs,Brewers,83 - 79 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,5,0,L
+2023-10-01,Brewers,Cubs,92 - 70 ,3,0,0,0,0,1,0,0,X,X,X,X,X,X,X,X,N,4,6,0,W
+2023-10-01,Reds,Cardinals,82 - 80 ,1,0,1,0,0,0,1,0,0,X,X,X,X,X,X,X,N,3,9,0,L
+2023-10-01,Cardinals,Reds,71 - 91 ,0,1,3,0,0,0,0,0,X,X,X,X,X,X,X,X,N,4,9,0,W
+2023-10-02,Marlins,Mets,82 - 77 ,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,X,N,0,4,1,L
+2023-10-02,Mets,Marlins,73 - 86 ,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,X,N,1,5,0,W
+2023-10-03,Rangers,Rays,1 - 0 ,0,1,0,0,1,2,0,0,0,X,X,X,X,X,X,X,N,4,9,1,W
+2023-10-03,Rays,Rangers,0 - 1 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,6,4,L
+2023-10-03,Blue Jays,Twins,0 - 1 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,1,6,0,L
+2023-10-03,Twins,Blue Jays,1 - 0 ,2,0,1,0,0,0,0,0,X,X,X,X,X,X,X,X,N,3,5,1,W
+2023-10-03,D-backs,Brewers,1 - 0 ,0,0,3,1,0,0,0,0,2,X,X,X,X,X,X,X,N,6,9,0,W
+2023-10-03,Brewers,D-backs,0 - 1 ,1,2,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,3,12,0,L
+2023-10-03,Marlins,Phillies,0 - 1 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,1,7,0,L
+2023-10-03,Phillies,Marlins,1 - 0 ,0,0,1,2,0,0,0,1,X,X,X,X,X,X,X,X,N,4,11,0,W
+2023-10-04,Rangers,Rays,2 - 0 ,0,0,0,4,1,2,0,0,0,X,X,X,X,X,X,X,N,7,12,1,W
+2023-10-04,Rays,Rangers,0 - 2 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,1,8,1,L
+2023-10-04,Blue Jays,Twins,0 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,9,1,L
+2023-10-04,Twins,Blue Jays,2 - 0 ,0,0,0,2,0,0,0,0,X,X,X,X,X,X,X,X,N,2,7,0,W
+2023-10-04,D-backs,Brewers,2 - 0 ,0,0,0,0,1,4,0,0,0,X,X,X,X,X,X,X,N,5,6,0,W
+2023-10-04,Brewers,D-backs,0 - 2 ,2,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,2,9,0,L
+2023-10-04,Marlins,Phillies,0 - 2 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,1,5,1,L
+2023-10-04,Phillies,Marlins,2 - 0 ,0,0,2,1,0,4,0,0,X,X,X,X,X,X,X,X,N,7,7,0,W
+2023-10-07,Rangers,Orioles,1 - 0 ,0,0,0,2,0,1,0,0,0,X,X,X,X,X,X,X,N,3,8,0,W
+2023-10-07,Orioles,Rangers,0 - 1 ,0,0,0,1,0,1,0,0,0,X,X,X,X,X,X,X,N,2,5,0,L
+2023-10-07,Twins,Astros,0 - 1 ,0,0,0,0,0,0,4,0,0,X,X,X,X,X,X,X,N,4,9,0,L
+2023-10-07,Astros,Twins,1 - 0 ,1,0,2,0,2,0,1,0,X,X,X,X,X,X,X,X,N,6,9,0,W
+2023-10-07,Phillies,Braves,1 - 0 ,0,0,0,1,0,1,0,1,0,X,X,X,X,X,X,X,N,3,6,0,W
+2023-10-07,Braves,Phillies,0 - 1 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,0,5,2,L
+2023-10-07,D-backs,Dodgers,1 - 0 ,6,3,0,0,0,0,1,1,0,X,X,X,X,X,X,X,N,11,13,0,W
+2023-10-07,Dodgers,D-backs,0 - 1 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,2,4,0,L

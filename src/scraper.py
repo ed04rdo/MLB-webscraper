@@ -7,19 +7,22 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
 
+import time
+
+
 """
     SPECIAL CASES CONSIDERATIONS
-        CHECK DATE 2023-02-24
-            GAMES OF 7 INNINGS CAUSES INDEX OUT OF RANGE
-        CHECK DATE 2023-03-01
-            GAMES OF 7 INNINGS BUT NOT OUT OF RANGE
-            HAS VALUE = ' '
-        CHECK DATE 2023-03-15
-            CANCELED GAMES
-        CHECK DATE 2023-04-02
-            EXTRA INNING GAME
-        CHECK DATE 2023-04-05
-            POSTPONED GAME
+        1. CHECK DATE 2023-02-24
+                GAMES OF 7 INNINGS CAUSES INDEX OUT OF RANGE
+        2. CHECK DATE 2023-03-01
+                GAMES OF 7 INNINGS BUT NOT OUT OF RANGE
+                HAS VALUE = ' '
+        3. CHECK DATE 2023-03-15
+                CANCELED GAMES
+        4. CHECK DATE 2023-04-02
+                EXTRA INNING GAME
+        5. CHECK DATE 2023-04-05
+                POSTPONED GAME
 """
 
 
@@ -57,9 +60,9 @@ def initialize_vars():
     
      
     mode = 1
-    single_date = "2023-04-05"
+    single_date = "2023-03-13"
     start_date = datetime.date(2023,2,24)
-    end_date = datetime.date(2023,9,20)
+    end_date = datetime.date(2023,10,7)
     delta = end_date-start_date
     date_range = [start_date + datetime.timedelta(day) for day in range(0,delta.days+1)]
 
@@ -108,7 +111,9 @@ def process(driver):
             if validate_date(str(date)) == 1:
                 continue
             print("CURRENTLY WORKING DATE",date)
+            start = time.time()
             driver.get(mlb_url+str(date))
+            print('It took', time.time()-start, 'seconds.')
             html = driver.page_source
             soup = parse_html(html)
             format_data(soup,date)
@@ -208,8 +213,8 @@ def full_game_validator(local,visit):
     score_by_inning = []
     for inning in range(16):
         try:
-            score_by_inning.append(str(local[inning].get_text()))
-            score_by_inning.append(str(visit[inning].get_text()))
+            score_by_inning.append(str(local[inning].get_text()) if str(local[inning].get_text()) != ' ' else 'X')
+            score_by_inning.append(str(visit[inning].get_text()) if str(visit[inning].get_text()) != ' ' else 'X')
         except IndexError as e:
             score_by_inning.append('X')
             score_by_inning.append('X')
