@@ -9,7 +9,6 @@ from selenium.webdriver.chrome.options import Options
 
 import time
 
-
 """
     SPECIAL CASES CONSIDERATIONS
         1. CHECK DATE 2023-02-24
@@ -30,7 +29,7 @@ def main():
     initialize_vars()
     driver = open_web_driver()
     process(driver)
-    driver.close()
+    driver.quit()
     write_file()
 
 def initialize_vars():
@@ -48,6 +47,15 @@ def initialize_vars():
             used in mode 1
             first set start_date,end_date
 
+        @multi_date_df
+            used in mode 1
+            output csv file name
+        
+        @single_date_test_df
+            used in mode 0
+            output csv file name
+            
+        
     """
 
     global mode
@@ -61,14 +69,16 @@ def initialize_vars():
      
     mode = 1
     single_date = "2023-03-13"
-    start_date = datetime.date(2023,2,24)
-    end_date = datetime.date(2023,10,7)
+    start_date = datetime.date(2022,5,1)
+    end_date = datetime.date(2022,11,10)
     delta = end_date-start_date
     date_range = [start_date + datetime.timedelta(day) for day in range(0,delta.days+1)]
-
+    
+    multi_date_df = "2022_MLB_Season_df"
+    single_date_test_df = "single_date_test_df"
 
     file_path = os.path.dirname(__file__)
-    file = "multi_date_results_df" if mode == 1 else "results_df"
+    file = multi_date_df if mode == 1 else single_date_test_df
     results_df = pd.read_csv(file_path+"/../output/{}.csv".format(file))
     mlb_url = "https://www.mlb.com/scores/"
 
@@ -86,13 +96,14 @@ def open_web_driver():
     options.add_argument('--disable-blink-features=AutomationControlled') # unable differences between automated browser and standard browser
     options.add_experimental_option('useAutomationExtension', False)
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("prefs", { "profile.managed_default_content_settings.images": 2}) # block image loading
     options.add_argument('--incognito')
     options.add_argument('--headless') # WITHOUT LAUNCHING WINDOW BUT SENDS DATA TO CONSOLE
     options.add_argument('--log-level=1') 
     user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36'
     options.add_argument('user-agent={0}'.format(user_agent))
     driver = webdriver.Chrome(options=options)
-    
+
     return driver
 
 def process(driver):
@@ -111,9 +122,9 @@ def process(driver):
             if validate_date(str(date)) == 1:
                 continue
             print("CURRENTLY WORKING DATE",date)
-            start = time.time()
+            #start = time.time()
             driver.get(mlb_url+str(date))
-            print('It took', time.time()-start, 'seconds.')
+            #print('It took', time.time()-start, 'seconds.')
             html = driver.page_source
             soup = parse_html(html)
             format_data(soup,date)
@@ -136,7 +147,7 @@ def format_data(soup,date):
     for result in results:
 
         game_status = result.find('span',{'class':'StatusLayerstyle__GameStateWrapper-sc-1s2c2o8-3 feaLYF'})
-        #print(game_status.get_text())
+        print(game_status.get_text())
 
         if game_status.get_text() != 'Canceled' and game_status.get_text() != 'Postponed':
             teams = result.find_all('div',{'class':'TeamWrappersstyle__DesktopTeamWrapper-sc-uqs6qh-0 fdaoCu'})
