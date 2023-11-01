@@ -58,6 +58,7 @@ def initialize_vars():
     global results_df
     global mlb_url
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     
      
     mode = 1
@@ -85,6 +86,16 @@ def validate_date(date):
     mlb_url = "https://www.mlb.com/scores/"
     single_date = "2023-04-02"
 
+=======
+    global single_date
+    global date_range
+
+    file_path = os.path.dirname(__file__)
+    results_df = pd.read_csv(file_path+"/../output/multi_date_results_df.csv")
+    mlb_url = "https://www.mlb.com/scores/"
+    single_date = "2023-04-02"
+
+>>>>>>> Stashed changes
     start_date = datetime.date(2023,2,24)
     end_date = datetime.date(2023,4,1)
     delta = end_date-start_date
@@ -93,6 +104,9 @@ def validate_date(date):
 
 def validate_date(date):
     if results_df[results_df.game_date == date].game_date.count() != 0:
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         print("DATE ALREADY CONTAINED IN DF, TRY ANOTHER")
         exit()
@@ -117,15 +131,21 @@ def open_web_driver():
 def process(driver):
     """
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     """
 
 =======
+=======
+>>>>>>> Stashed changes
         mode determines if single date or multidate process
         0 = single date process
         1 = multi-date process 
     """
     mode = 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     if mode == 0:
         validate_date(single_date)
@@ -136,12 +156,18 @@ def process(driver):
     else:
         for date in date_range:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             if validate_date(str(date)) == 1:
                 continue
             print("CURRENTLY WORKING DATE",date)
             start = time.time()
             driver.get(mlb_url+str(date))
             print('It took', time.time()-start, 'seconds.')
+=======
+            validate_date(str(date))
+            print("CURRENTLY WORKING DATE",date)
+            driver.get(mlb_url+str(date))
+>>>>>>> Stashed changes
 =======
             validate_date(str(date))
             print("CURRENTLY WORKING DATE",date)
@@ -165,13 +191,19 @@ def parse_html(html):
     # UNCOMMENT FOR WRITING HTML RESULT ON A TXT FILE FOR ANALYSIS
     # with open(file_path+'/../output/bsoup.txt', mode='wt', encoding='utf-8') as file:
     #    file.write(soup.prettify())
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     
     return soup
 
 def format_data(soup,date):
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     results = soup.find_all('div',{'class':'grid-itemstyle__GridItemWrapper-sc-cq9wv2-0 gmoPjI'})
@@ -266,7 +298,11 @@ def full_game_validator(local,visit):
 
 def write_file():
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     results_df.to_csv(file_path+"/../output/{}.csv".format(file),index=False)
+=======
+    results_df.to_csv(file_path+"/../output/multi_date_results_df.csv",index=False)
+>>>>>>> Stashed changes
 =======
     results_df.to_csv(file_path+"/../output/multi_date_results_df.csv",index=False)
 >>>>>>> Stashed changes
