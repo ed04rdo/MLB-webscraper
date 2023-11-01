@@ -9,7 +9,6 @@ from selenium.webdriver.chrome.options import Options
 
 import time
 
-
 """
     SPECIAL CASES CONSIDERATIONS
         1. CHECK DATE 2023-02-24
@@ -30,7 +29,7 @@ def main():
     initialize_vars()
     driver = open_web_driver()
     process(driver)
-    driver.close()
+    driver.quit()
     write_file()
 
 def initialize_vars():
@@ -48,6 +47,15 @@ def initialize_vars():
             used in mode 1
             first set start_date,end_date
 
+        @multi_date_df
+            used in mode 1
+            output csv file name
+        
+        @single_date_test_df
+            used in mode 0
+            output csv file name
+            
+        
     """
 
     global mode
@@ -57,57 +65,26 @@ def initialize_vars():
     global file
     global results_df
     global mlb_url
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     
      
     mode = 1
     single_date = "2023-03-13"
-    start_date = datetime.date(2023,2,24)
-    end_date = datetime.date(2023,10,7)
+    start_date = datetime.date(2022,5,1)
+    end_date = datetime.date(2022,11,10)
     delta = end_date-start_date
     date_range = [start_date + datetime.timedelta(day) for day in range(0,delta.days+1)]
-
+    
+    multi_date_df = "2022_MLB_Season_df"
+    single_date_test_df = "single_date_test_df"
 
     file_path = os.path.dirname(__file__)
-    file = "multi_date_results_df" if mode == 1 else "results_df"
+    file = multi_date_df if mode == 1 else single_date_test_df
     results_df = pd.read_csv(file_path+"/../output/{}.csv".format(file))
     mlb_url = "https://www.mlb.com/scores/"
 
 
 def validate_date(date):
     if results_df[results_df.game_date == date].game_date.count() != 0 and mode == 0:
-=======
-    global single_date
-    global date_range
-
-    file_path = os.path.dirname(__file__)
-    results_df = pd.read_csv(file_path+"/../output/multi_date_results_df.csv")
-    mlb_url = "https://www.mlb.com/scores/"
-    single_date = "2023-04-02"
-
-=======
-    global single_date
-    global date_range
-
-    file_path = os.path.dirname(__file__)
-    results_df = pd.read_csv(file_path+"/../output/multi_date_results_df.csv")
-    mlb_url = "https://www.mlb.com/scores/"
-    single_date = "2023-04-02"
-
->>>>>>> Stashed changes
-    start_date = datetime.date(2023,2,24)
-    end_date = datetime.date(2023,4,1)
-    delta = end_date-start_date
-    date_range = [start_date + datetime.timedelta(day) for day in range(0,delta.days+1)]
-
-
-def validate_date(date):
-    if results_df[results_df.game_date == date].game_date.count() != 0:
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         print("DATE ALREADY CONTAINED IN DF, TRY ANOTHER")
         exit()
     elif results_df[results_df.game_date == date].game_date.count() != 0 and mode == 1:
@@ -119,34 +96,21 @@ def open_web_driver():
     options.add_argument('--disable-blink-features=AutomationControlled') # unable differences between automated browser and standard browser
     options.add_experimental_option('useAutomationExtension', False)
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("prefs", { "profile.managed_default_content_settings.images": 2}) # block image loading
     options.add_argument('--incognito')
     options.add_argument('--headless') # WITHOUT LAUNCHING WINDOW BUT SENDS DATA TO CONSOLE
     options.add_argument('--log-level=1') 
     user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36'
     options.add_argument('user-agent={0}'.format(user_agent))
     driver = webdriver.Chrome(options=options)
-    
+
     return driver
 
 def process(driver):
     """
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
     """
 
-=======
-=======
->>>>>>> Stashed changes
-        mode determines if single date or multidate process
-        0 = single date process
-        1 = multi-date process 
-    """
-    mode = 1
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     if mode == 0:
         validate_date(single_date)
         driver.get(mlb_url+single_date)
@@ -155,24 +119,12 @@ def process(driver):
         format_data(soup, single_date)
     else:
         for date in date_range:
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
             if validate_date(str(date)) == 1:
                 continue
             print("CURRENTLY WORKING DATE",date)
-            start = time.time()
+            #start = time.time()
             driver.get(mlb_url+str(date))
-            print('It took', time.time()-start, 'seconds.')
-=======
-            validate_date(str(date))
-            print("CURRENTLY WORKING DATE",date)
-            driver.get(mlb_url+str(date))
->>>>>>> Stashed changes
-=======
-            validate_date(str(date))
-            print("CURRENTLY WORKING DATE",date)
-            driver.get(mlb_url+str(date))
->>>>>>> Stashed changes
+            #print('It took', time.time()-start, 'seconds.')
             html = driver.page_source
             soup = parse_html(html)
             format_data(soup,date)
@@ -180,38 +132,22 @@ def process(driver):
 
 def parse_html(html):
     soup = bs4(html,'html.parser')
-<<<<<<< Updated upstream
     """
         # UNCOMMENT FOR WRITING HTML RESULT ON A TXT FILE FOR ANALYSIS
         # with open(file_path+'/../output/bsoup.txt', mode='wt', encoding='utf-8') as file:
         #    file.write(soup.prettify())
     """
-=======
-
-    # UNCOMMENT FOR WRITING HTML RESULT ON A TXT FILE FOR ANALYSIS
-    # with open(file_path+'/../output/bsoup.txt', mode='wt', encoding='utf-8') as file:
-    #    file.write(soup.prettify())
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     
     return soup
 
 def format_data(soup,date):
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     results = soup.find_all('div',{'class':'grid-itemstyle__GridItemWrapper-sc-cq9wv2-0 gmoPjI'})
     
     for result in results:
 
         game_status = result.find('span',{'class':'StatusLayerstyle__GameStateWrapper-sc-1s2c2o8-3 feaLYF'})
-        #print(game_status.get_text())
+        print(game_status.get_text())
 
         if game_status.get_text() != 'Canceled' and game_status.get_text() != 'Postponed':
             teams = result.find_all('div',{'class':'TeamWrappersstyle__DesktopTeamWrapper-sc-uqs6qh-0 fdaoCu'})
@@ -297,15 +233,7 @@ def full_game_validator(local,visit):
     return score_by_inning
 
 def write_file():
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     results_df.to_csv(file_path+"/../output/{}.csv".format(file),index=False)
-=======
-    results_df.to_csv(file_path+"/../output/multi_date_results_df.csv",index=False)
->>>>>>> Stashed changes
-=======
-    results_df.to_csv(file_path+"/../output/multi_date_results_df.csv",index=False)
->>>>>>> Stashed changes
                            
         
 if __name__ == "__main__":
