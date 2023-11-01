@@ -57,6 +57,7 @@ def initialize_vars():
     global file
     global results_df
     global mlb_url
+<<<<<<< Updated upstream
     
      
     mode = 1
@@ -75,6 +76,24 @@ def initialize_vars():
 
 def validate_date(date):
     if results_df[results_df.game_date == date].game_date.count() != 0 and mode == 0:
+=======
+    global single_date
+    global date_range
+
+    file_path = os.path.dirname(__file__)
+    results_df = pd.read_csv(file_path+"/../output/multi_date_results_df.csv")
+    mlb_url = "https://www.mlb.com/scores/"
+    single_date = "2023-04-02"
+
+    start_date = datetime.date(2023,2,24)
+    end_date = datetime.date(2023,4,1)
+    delta = end_date-start_date
+    date_range = [start_date + datetime.timedelta(day) for day in range(0,delta.days+1)]
+
+
+def validate_date(date):
+    if results_df[results_df.game_date == date].game_date.count() != 0:
+>>>>>>> Stashed changes
         print("DATE ALREADY CONTAINED IN DF, TRY ANOTHER")
         exit()
     elif results_df[results_df.game_date == date].game_date.count() != 0 and mode == 1:
@@ -97,9 +116,17 @@ def open_web_driver():
 
 def process(driver):
     """
+<<<<<<< Updated upstream
 
     """
 
+=======
+        mode determines if single date or multidate process
+        0 = single date process
+        1 = multi-date process 
+    """
+    mode = 1
+>>>>>>> Stashed changes
     if mode == 0:
         validate_date(single_date)
         driver.get(mlb_url+single_date)
@@ -108,12 +135,18 @@ def process(driver):
         format_data(soup, single_date)
     else:
         for date in date_range:
+<<<<<<< Updated upstream
             if validate_date(str(date)) == 1:
                 continue
             print("CURRENTLY WORKING DATE",date)
             start = time.time()
             driver.get(mlb_url+str(date))
             print('It took', time.time()-start, 'seconds.')
+=======
+            validate_date(str(date))
+            print("CURRENTLY WORKING DATE",date)
+            driver.get(mlb_url+str(date))
+>>>>>>> Stashed changes
             html = driver.page_source
             soup = parse_html(html)
             format_data(soup,date)
@@ -121,16 +154,26 @@ def process(driver):
 
 def parse_html(html):
     soup = bs4(html,'html.parser')
+<<<<<<< Updated upstream
     """
         # UNCOMMENT FOR WRITING HTML RESULT ON A TXT FILE FOR ANALYSIS
         # with open(file_path+'/../output/bsoup.txt', mode='wt', encoding='utf-8') as file:
         #    file.write(soup.prettify())
     """
+=======
+
+    # UNCOMMENT FOR WRITING HTML RESULT ON A TXT FILE FOR ANALYSIS
+    # with open(file_path+'/../output/bsoup.txt', mode='wt', encoding='utf-8') as file:
+    #    file.write(soup.prettify())
+>>>>>>> Stashed changes
     
     return soup
 
 def format_data(soup,date):
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     results = soup.find_all('div',{'class':'grid-itemstyle__GridItemWrapper-sc-cq9wv2-0 gmoPjI'})
     
     for result in results:
@@ -222,7 +265,11 @@ def full_game_validator(local,visit):
     return score_by_inning
 
 def write_file():
+<<<<<<< Updated upstream
     results_df.to_csv(file_path+"/../output/{}.csv".format(file),index=False)
+=======
+    results_df.to_csv(file_path+"/../output/multi_date_results_df.csv",index=False)
+>>>>>>> Stashed changes
                            
         
 if __name__ == "__main__":
