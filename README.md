@@ -1,2 +1,3 @@
 # MLB-webscraper
-Python MLB game results &amp; stats webscraper for analysis
+
+{% include /img_plots/fig_1.html %}
