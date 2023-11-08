@@ -68,15 +68,14 @@ def initialize_vars():
     
      
     mode = 1
-    single_date = "2023-03-13"
-    start_date = datetime.date(2022,5,1)
-    end_date = datetime.date(2022,11,10)
+    single_date = "2023-04-02"
+    start_date = datetime.date(2023,2,1)
+    end_date = datetime.date(2023,11,10)
     delta = end_date-start_date
     date_range = [start_date + datetime.timedelta(day) for day in range(0,delta.days+1)]
-    
-    multi_date_df = "2022_MLB_Season_df"
+    multi_date_df = "{}_MLB_Season_df".format(str(start_date.year))
     single_date_test_df = "single_date_test_df"
-
+    
     file_path = os.path.dirname(__file__)
     file = multi_date_df if mode == 1 else single_date_test_df
     results_df = pd.read_csv(file_path+"/../output/{}.csv".format(file))
@@ -147,7 +146,6 @@ def format_data(soup,date):
     for result in results:
 
         game_status = result.find('span',{'class':'StatusLayerstyle__GameStateWrapper-sc-1s2c2o8-3 feaLYF'})
-        print(game_status.get_text())
 
         if game_status.get_text() != 'Canceled' and game_status.get_text() != 'Postponed':
             teams = result.find_all('div',{'class':'TeamWrappersstyle__DesktopTeamWrapper-sc-uqs6qh-0 fdaoCu'})
@@ -187,6 +185,7 @@ def format_data(soup,date):
                             register[28],
                             register[30],
                             "Y" if register[18] != "X" else "N",
+                            register[32],
                             local_score[0].get_text(),
                             local_hits_errors[0].get_text(),
                             local_hits_errors[1].get_text(),
@@ -213,6 +212,7 @@ def format_data(soup,date):
                             register[29],
                             register[31],
                             "Y" if register[18] != "X" else "N",
+                            register[32],
                             visit_score[1].get_text(),
                             visit_hits_errors[0].get_text(),
                             visit_hits_errors[1].get_text(),
@@ -229,7 +229,7 @@ def full_game_validator(local,visit):
         except IndexError as e:
             score_by_inning.append('X')
             score_by_inning.append('X')
-    
+    score_by_inning.append((score_by_inning.index('X')+1)//2)
     return score_by_inning
 
 def write_file():
