@@ -87,3 +87,17 @@ game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_i
 2023-04-02,Mariners,Guardians,1 - 3 ,1,0,3,0,1,0,0,0,0,0,X,X,X,X,X,X,Y,10,5,9,1,L
 2023-04-02,Phillies,Rangers,0 - 3 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,9,0,L
 2023-04-02,Rangers,Phillies,3 - 0 ,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,X,N,9,2,8,0,W
+2022-04-25,Giants,Brewers,12 - 5 ,0,0,0,0,0,0,0,2,2,X,X,X,X,X,X,X,N,9,4,6,1,W
+2022-04-25,Brewers,Giants,10 - 7 ,0,1,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,9,2,5,0,L
+2022-04-25,Rockies,Phillies,10 - 6 ,1,1,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,2,5,3,L
+2022-04-25,Phillies,Rockies,7 - 10 ,0,0,3,0,1,0,4,0,X,X,X,X,X,X,X,X,N,9,8,9,0,W
+2022-04-25,Red Sox,Blue Jays,7 - 10 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,2,7,0,L
+2022-04-25,Blue Jays,Red Sox,11 - 6 ,0,0,0,0,1,0,1,4,X,X,X,X,X,X,X,X,N,9,6,10,0,W
+2022-04-25,Mets,Cardinals,13 - 5 ,0,0,0,0,0,0,0,0,5,X,X,X,X,X,X,X,N,9,5,9,1,W
+2022-04-25,Cardinals,Mets,9 - 6 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,2,5,1,L
+2022-04-25,Astros,Rangers,7 - 9 ,0,1,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,2,8,1,L
+2022-04-25,Rangers,Astros,6 - 10 ,0,1,0,0,0,0,2,3,X,X,X,X,X,X,X,X,N,9,6,11,0,W
+2022-04-25,Guardians,Angels,7 - 9 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,3,0,L
+2022-04-25,Angels,Guardians,10 - 7 ,0,0,0,0,1,0,2,0,X,X,X,X,X,X,X,X,N,9,3,8,1,W
+2022-04-25,Dodgers,D-backs,12 - 4 ,2,0,0,0,1,0,0,1,0,X,X,X,X,X,X,X,N,9,4,9,0,W
+2022-04-25,D-backs,Dodgers,6 - 11 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,3,0,L
