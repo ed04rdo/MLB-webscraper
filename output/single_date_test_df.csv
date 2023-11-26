@@ -1,103 +1,133 @@
-game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_inning,6th_inning,7th_inning,8th_inning,9th_inning,10th_inning,11th_inning,12th_inning,13th_inning,14th_inning,15th_inning,16th_inning,extra_inning,total_innings,runs,hits,errors,result
-2023-02-24,Rangers,Royals,0 - 1 ,0,3,0,0,0,0,1,1,0,X,X,X,X,X,X,X,N,9,5,9,2,L
-2023-02-24,Royals,Rangers,1 - 0 ,2,0,0,2,1,0,0,0,1,X,X,X,X,X,X,X,N,9,6,8,1,W
-2023-02-24,Mariners,Padres,1 - 0 ,0,0,0,3,0,0,0,0,0,X,X,X,X,X,X,X,N,9,3,8,0,W
-2023-02-24,Padres,Mariners,0 - 1 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,2,8,1,L
-2023-02-24,Huskies,Red Sox,0 - 1 ,0,0,0,2,1,0,0,X,X,X,X,X,X,X,X,X,N,7,3,6,0,L
-2023-02-24,Red Sox,Huskies,1 - 0 ,5,0,0,0,0,0,X,X,X,X,X,X,X,X,X,X,N,7,5,6,2,W
-2023-03-01,Red Sox,Astros,3 - 0 ,2,0,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,9,4,7,2,T
-2023-03-01,Astros,Red Sox,2 - 2 ,0,1,0,0,0,2,1,0,0,X,X,X,X,X,X,X,N,9,4,7,1,T
-2023-03-01,Pirates,Tigers,1 - 3 ,0,1,0,0,2,0,1,3,0,X,X,X,X,X,X,X,N,9,7,9,0,L
-2023-03-01,Tigers,Pirates,2 - 3 ,4,0,0,1,0,0,2,0,1,X,X,X,X,X,X,X,N,9,8,9,1,W
-2023-03-01,Blue Jays,Orioles,3 - 3 ,0,0,0,1,0,0,0,1,0,X,X,X,X,X,X,X,N,9,2,9,1,W
-2023-03-01,Orioles,Blue Jays,2 - 3 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,9,1,2,1,L
-2023-03-01,Phillies,Twins,4 - 1 ,0,2,0,0,2,0,0,0,0,X,X,X,X,X,X,X,N,9,4,7,1,T
-2023-03-01,Twins,Phillies,2 - 3 ,0,1,0,1,0,0,0,0,2,X,X,X,X,X,X,X,N,9,4,9,2,T
-2023-03-01,Rays,Braves,2 - 2 ,0,0,1,0,1,0,1,0,0,X,X,X,X,X,X,X,N,9,3,6,2,T
-2023-03-01,Braves,Rays,1 - 2 ,0,0,0,0,0,1,0,2,0,X,X,X,X,X,X,X,N,9,3,6,0,T
-2023-03-01,Nationals,Yankees,2 - 3 ,0,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,2,5,0,L
-2023-03-01,Yankees,Nationals,4 - 2 ,0,0,0,2,0,0,0,0,2,X,X,X,X,X,X,X,N,9,4,6,0,W
-2023-03-01,Mets,Marlins,3 - 3 ,0,0,2,2,1,0,0,1,2,X,X,X,X,X,X,X,N,9,8,11,2,W
-2023-03-01,Marlins,Mets,1 - 4 ,0,1,1,0,1,0,0,1,0,X,X,X,X,X,X,X,N,9,4,8,1,L
-2023-03-01,Brewers,Angels,3 - 3 ,1,1,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,3,7,0,L
-2023-03-01,Angels,Brewers,4 - 1 ,3,0,0,1,0,0,0,0,X,X,X,X,X,X,X,X,N,9,4,6,1,W
-2023-03-01,Athletics,Reds,2 - 2 ,2,0,0,0,1,1,2,4,4,X,X,X,X,X,X,X,N,9,14,17,1,T
-2023-03-01,Reds,Athletics,2 - 2 ,0,0,1,0,0,2,1,10,0,X,X,X,X,X,X,X,N,9,14,12,1,T
-2023-03-01,Mariners,Cubs,2 - 4 ,0,0,0,0,2,0,0,1,0,X,X,X,X,X,X,X,N,9,3,13,0,L
-2023-03-01,Cubs,Mariners,2 - 4 ,0,0,0,5,0,0,0,0,X,X,X,X,X,X,X,X,N,9,5,7,0,W
-2023-03-01,D-backs,Giants,2 - 4 ,0,1,0,2,1,2,0,1,1,X,X,X,X,X,X,X,N,9,8,13,0,W
-2023-03-01,Giants,D-backs,2 - 3 ,0,0,0,0,0,0,1,2,2,X,X,X,X,X,X,X,N,9,5,8,0,L
-2023-03-01,Dodgers,Rangers,3 - 2 ,1,1,1,0,1,0,0,X,X,X,X,X,X,X,X,X,N,7,4,6,0,W
-2023-03-01,Rangers,Dodgers,3 - 4 ,1,0,0,0,0,0,1,X,X,X,X,X,X,X,X,X,N,7,2,7,1,L
-2023-03-01,Guardians,White Sox,2 - 4 ,2,0,1,1,0,0,4,0,1,X,X,X,X,X,X,X,N,9,9,9,1,W
-2023-03-01,White Sox,Guardians,2 - 3 ,0,0,0,1,0,0,3,2,X,X,X,X,X,X,X,X,N,9,6,9,3,L
-2023-03-01,Royals,Rockies,5 - 1 ,0,0,0,2,0,0,1,0,5,X,X,X,X,X,X,X,N,9,8,11,2,W
-2023-03-01,Rockies,Royals,3 - 2 ,1,3,0,0,0,1,1,0,0,X,X,X,X,X,X,X,N,9,6,10,1,L
-2023-03-01,Rangers,Padres,3 - 4 ,0,0,0,0,0,0,1,X,X,X,X,X,X,X,X,X,N,7,1,4,0,L
-2023-03-01,Padres,Rangers,4 - 2 ,0,3,0,1,1,0,X,X,X,X,X,X,X,X,X,X,N,7,5,7,1,W
-2023-03-15,Australia,Cuba,0 - 1 ,0,1,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,9,3,5,0,L
-2023-03-15,Cuba,Australia,1 - 0 ,0,0,1,0,3,0,0,0,X,X,X,X,X,X,X,X,N,9,4,7,0,W
-2023-03-15,Venezuela,Israel,4 - 0 ,3,0,0,1,0,1,0,0,0,X,X,X,X,X,X,X,N,9,5,10,0,W
-2023-03-15,Israel,Venezuela,1 - 3 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,9,1,9,1,L
-2023-03-15,Mexico,Canada,3 - 1 ,2,1,0,0,0,4,2,1,0,X,X,X,X,X,X,X,N,9,10,10,0,W
-2023-03-15,Canada,Mexico,2 - 2 ,1,0,0,1,0,0,1,0,0,X,X,X,X,X,X,X,N,9,3,7,0,L
-2023-03-15,Puerto Rico,Dominican Rep.,3 - 1 ,0,0,4,0,1,0,0,0,0,X,X,X,X,X,X,X,N,9,5,8,0,W
-2023-03-15,Dominican Rep.,Puerto Rico,2 - 2 ,0,0,1,0,1,0,0,0,0,X,X,X,X,X,X,X,N,9,2,6,1,L
-2023-03-15,United States,Colombia,3 - 1 ,0,0,1,0,2,0,0,0,0,X,X,X,X,X,X,X,N,9,3,7,0,W
-2023-03-15,Colombia,United States,1 - 3 ,0,0,2,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,2,6,0,L
-2023-03-15,Rays,Red Sox,9 - 8 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,6,3,L
-2023-03-15,Red Sox,Rays,10 - 5 ,3,0,1,0,0,2,3,0,X,X,X,X,X,X,X,X,N,9,9,8,0,W
-2023-03-15,Astros,Braves,8 - 6 ,1,0,1,0,0,3,0,3,1,X,X,X,X,X,X,X,N,9,9,15,0,W
-2023-03-15,Braves,Astros,8 - 8 ,0,0,0,0,1,1,0,1,0,X,X,X,X,X,X,X,N,9,3,7,2,L
-2023-03-15,Phillies,Yankees,9 - 8 ,7,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,N,9,9,9,1,W
-2023-03-15,Yankees,Phillies,9 - 10 ,1,0,0,0,0,4,0,3,0,X,X,X,X,X,X,X,N,9,8,8,0,L
-2023-03-15,Pirates,Blue Jays,4 - 12 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,9,1,5,2,L
-2023-03-15,Blue Jays,Pirates,12 - 7 ,0,0,2,0,2,0,2,1,X,X,X,X,X,X,X,X,N,9,7,8,0,W
-2023-03-15,Cardinals,Mets,10 - 5 ,0,0,0,0,0,2,2,0,0,X,X,X,X,X,X,X,N,9,4,7,0,W
-2023-03-15,Mets,Cardinals,7 - 10 ,0,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,9,1,5,2,L
-2023-03-15,Royals,Rangers,14 - 5 ,0,0,0,0,0,2,0,1,0,X,X,X,X,X,X,X,N,9,3,5,1,L
-2023-03-15,Rangers,Royals,8 - 11 ,0,1,1,0,0,1,0,0,1,X,X,X,X,X,X,X,N,9,4,4,2,W
-2023-04-02,Tigers,Rays,0 - 3 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,9,1,2,0,L
-2023-04-02,Rays,Tigers,3 - 0 ,0,0,0,1,0,3,0,1,X,X,X,X,X,X,X,X,N,9,5,8,0,W
-2023-04-02,Orioles,Red Sox,1 - 2 ,0,0,0,0,3,0,2,0,0,X,X,X,X,X,X,X,N,9,5,10,2,L
-2023-04-02,Red Sox,Orioles,2 - 1 ,1,1,1,0,3,0,2,1,X,X,X,X,X,X,X,X,N,9,9,14,0,W
-2023-04-02,Braves,Nationals,2 - 1 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,4,0,L
-2023-04-02,Nationals,Braves,1 - 2 ,4,0,0,0,0,0,0,0,X,X,X,X,X,X,X,X,N,9,4,6,0,W
-2023-04-02,Giants,Yankees,1 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,3,0,L
-2023-04-02,Yankees,Giants,2 - 1 ,0,0,3,1,0,0,2,0,X,X,X,X,X,X,X,X,N,9,6,7,1,W
-2023-04-02,Pirates,Reds,1 - 2 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,6,0,L
-2023-04-02,Reds,Pirates,2 - 1 ,0,1,1,0,1,0,0,0,X,X,X,X,X,X,X,X,N,9,3,9,0,W
-2023-04-02,Mets,Marlins,3 - 1 ,2,0,0,0,2,0,1,0,0,X,X,X,X,X,X,X,N,9,5,5,0,W
-2023-04-02,Marlins,Mets,1 - 3 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,4,1,L
-2023-04-02,Twins,Royals,3 - 0 ,0,1,0,1,0,1,3,1,0,X,X,X,X,X,X,X,N,9,7,13,0,W
-2023-04-02,Royals,Twins,0 - 3 ,0,1,0,0,0,0,2,0,1,X,X,X,X,X,X,X,N,9,4,6,0,L
-2023-04-02,White Sox,Astros,2 - 2 ,0,0,0,0,1,2,0,1,2,X,X,X,X,X,X,X,N,9,6,13,0,W
-2023-04-02,Astros,White Sox,2 - 2 ,0,0,0,0,0,1,0,0,2,X,X,X,X,X,X,X,N,9,3,7,0,L
-2023-04-02,Blue Jays,Cardinals,1 - 2 ,0,3,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,4,10,0,L
-2023-04-02,Cardinals,Blue Jays,2 - 1 ,4,0,3,2,0,0,0,0,X,X,X,X,X,X,X,X,N,9,9,16,0,W
-2023-04-02,Brewers,Cubs,2 - 1 ,0,1,1,1,0,5,1,0,0,X,X,X,X,X,X,X,N,9,9,13,0,W
-2023-04-02,Cubs,Brewers,1 - 2 ,1,1,0,0,0,0,1,2,0,X,X,X,X,X,X,X,N,9,5,9,1,L
-2023-04-02,Angels,Athletics,2 - 1 ,0,0,0,3,3,0,0,0,0,X,X,X,X,X,X,X,N,9,6,11,0,W
-2023-04-02,Athletics,Angels,1 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,5,1,L
-2023-04-02,D-backs,Dodgers,2 - 2 ,0,0,0,0,1,0,0,0,1,X,X,X,X,X,X,X,N,9,2,9,0,W
-2023-04-02,Dodgers,D-backs,2 - 2 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,4,1,L
-2023-04-02,Rockies,Padres,2 - 2 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,9,1,4,0,L
-2023-04-02,Padres,Rockies,2 - 2 ,0,0,3,0,0,0,0,0,X,X,X,X,X,X,X,X,N,9,3,4,0,W
-2023-04-02,Guardians,Mariners,3 - 1 ,0,3,0,0,1,0,1,0,0,1,X,X,X,X,X,X,Y,10,6,9,1,W
-2023-04-02,Mariners,Guardians,1 - 3 ,1,0,3,0,1,0,0,0,0,0,X,X,X,X,X,X,Y,10,5,9,1,L
-2023-04-02,Phillies,Rangers,0 - 3 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,9,0,L
-2023-04-02,Rangers,Phillies,3 - 0 ,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,X,N,9,2,8,0,W
-2022-04-25,Giants,Brewers,12 - 5 ,0,0,0,0,0,0,0,2,2,X,X,X,X,X,X,X,N,9,4,6,1,W
-2022-04-25,Brewers,Giants,10 - 7 ,0,1,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,9,2,5,0,L
-2022-04-25,Rockies,Phillies,10 - 6 ,1,1,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,2,5,3,L
-2022-04-25,Phillies,Rockies,7 - 10 ,0,0,3,0,1,0,4,0,X,X,X,X,X,X,X,X,N,9,8,9,0,W
-2022-04-25,Red Sox,Blue Jays,7 - 10 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,2,7,0,L
-2022-04-25,Blue Jays,Red Sox,11 - 6 ,0,0,0,0,1,0,1,4,X,X,X,X,X,X,X,X,N,9,6,10,0,W
-2022-04-25,Mets,Cardinals,13 - 5 ,0,0,0,0,0,0,0,0,5,X,X,X,X,X,X,X,N,9,5,9,1,W
-2022-04-25,Cardinals,Mets,9 - 6 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,2,5,1,L
-2022-04-25,Astros,Rangers,7 - 9 ,0,1,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,2,8,1,L
-2022-04-25,Rangers,Astros,6 - 10 ,0,1,0,0,0,0,2,3,X,X,X,X,X,X,X,X,N,9,6,11,0,W
-2022-04-25,Guardians,Angels,7 - 9 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,3,0,L
-2022-04-25,Angels,Guardians,10 - 7 ,0,0,0,0,1,0,2,0,X,X,X,X,X,X,X,X,N,9,3,8,1,W
-2022-04-25,Dodgers,D-backs,12 - 4 ,2,0,0,0,1,0,0,1,0,X,X,X,X,X,X,X,N,9,4,9,0,W
-2022-04-25,D-backs,Dodgers,6 - 11 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,3,0,L
+game_date,team,opponent,record,1st_inning,2nd_inning,3rd_inning,4th_inning,5th_inning,6th_inning,7th_inning,8th_inning,9th_inning,10th_inning,11th_inning,12th_inning,13th_inning,14th_inning,15th_inning,16th_inning,extra_inning,total_innings,runs,hits,errors,result,17th_inning,18th_inning,19th_inning,20th_inning,21th_inning,22th_inning,23th_inning,24th_inning,25th_inning,26th_inning
+2023-02-24,Rangers,Royals,0 - 1 ,0,3,0,0,0,0,1,1,0,X,X,X,X,X,X,X,N,9,5,9,2,L,,,,,,,,,,
+2023-02-24,Royals,Rangers,1 - 0 ,2,0,0,2,1,0,0,0,1,X,X,X,X,X,X,X,N,9,6,8,1,W,,,,,,,,,,
+2023-02-24,Mariners,Padres,1 - 0 ,0,0,0,3,0,0,0,0,0,X,X,X,X,X,X,X,N,9,3,8,0,W,,,,,,,,,,
+2023-02-24,Padres,Mariners,0 - 1 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,2,8,1,L,,,,,,,,,,
+2023-02-24,Huskies,Red Sox,0 - 1 ,0,0,0,2,1,0,0,X,X,X,X,X,X,X,X,X,N,7,3,6,0,L,,,,,,,,,,
+2023-02-24,Red Sox,Huskies,1 - 0 ,5,0,0,0,0,0,X,X,X,X,X,X,X,X,X,X,N,7,5,6,2,W,,,,,,,,,,
+2023-03-01,Red Sox,Astros,3 - 0 ,2,0,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,9,4,7,2,T,,,,,,,,,,
+2023-03-01,Astros,Red Sox,2 - 2 ,0,1,0,0,0,2,1,0,0,X,X,X,X,X,X,X,N,9,4,7,1,T,,,,,,,,,,
+2023-03-01,Pirates,Tigers,1 - 3 ,0,1,0,0,2,0,1,3,0,X,X,X,X,X,X,X,N,9,7,9,0,L,,,,,,,,,,
+2023-03-01,Tigers,Pirates,2 - 3 ,4,0,0,1,0,0,2,0,1,X,X,X,X,X,X,X,N,9,8,9,1,W,,,,,,,,,,
+2023-03-01,Blue Jays,Orioles,3 - 3 ,0,0,0,1,0,0,0,1,0,X,X,X,X,X,X,X,N,9,2,9,1,W,,,,,,,,,,
+2023-03-01,Orioles,Blue Jays,2 - 3 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,9,1,2,1,L,,,,,,,,,,
+2023-03-01,Phillies,Twins,4 - 1 ,0,2,0,0,2,0,0,0,0,X,X,X,X,X,X,X,N,9,4,7,1,T,,,,,,,,,,
+2023-03-01,Twins,Phillies,2 - 3 ,0,1,0,1,0,0,0,0,2,X,X,X,X,X,X,X,N,9,4,9,2,T,,,,,,,,,,
+2023-03-01,Rays,Braves,2 - 2 ,0,0,1,0,1,0,1,0,0,X,X,X,X,X,X,X,N,9,3,6,2,T,,,,,,,,,,
+2023-03-01,Braves,Rays,1 - 2 ,0,0,0,0,0,1,0,2,0,X,X,X,X,X,X,X,N,9,3,6,0,T,,,,,,,,,,
+2023-03-01,Nationals,Yankees,2 - 3 ,0,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,2,5,0,L,,,,,,,,,,
+2023-03-01,Yankees,Nationals,4 - 2 ,0,0,0,2,0,0,0,0,2,X,X,X,X,X,X,X,N,9,4,6,0,W,,,,,,,,,,
+2023-03-01,Mets,Marlins,3 - 3 ,0,0,2,2,1,0,0,1,2,X,X,X,X,X,X,X,N,9,8,11,2,W,,,,,,,,,,
+2023-03-01,Marlins,Mets,1 - 4 ,0,1,1,0,1,0,0,1,0,X,X,X,X,X,X,X,N,9,4,8,1,L,,,,,,,,,,
+2023-03-01,Brewers,Angels,3 - 3 ,1,1,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,3,7,0,L,,,,,,,,,,
+2023-03-01,Angels,Brewers,4 - 1 ,3,0,0,1,0,0,0,0,X,X,X,X,X,X,X,X,N,9,4,6,1,W,,,,,,,,,,
+2023-03-01,Athletics,Reds,2 - 2 ,2,0,0,0,1,1,2,4,4,X,X,X,X,X,X,X,N,9,14,17,1,T,,,,,,,,,,
+2023-03-01,Reds,Athletics,2 - 2 ,0,0,1,0,0,2,1,10,0,X,X,X,X,X,X,X,N,9,14,12,1,T,,,,,,,,,,
+2023-03-01,Mariners,Cubs,2 - 4 ,0,0,0,0,2,0,0,1,0,X,X,X,X,X,X,X,N,9,3,13,0,L,,,,,,,,,,
+2023-03-01,Cubs,Mariners,2 - 4 ,0,0,0,5,0,0,0,0,X,X,X,X,X,X,X,X,N,9,5,7,0,W,,,,,,,,,,
+2023-03-01,D-backs,Giants,2 - 4 ,0,1,0,2,1,2,0,1,1,X,X,X,X,X,X,X,N,9,8,13,0,W,,,,,,,,,,
+2023-03-01,Giants,D-backs,2 - 3 ,0,0,0,0,0,0,1,2,2,X,X,X,X,X,X,X,N,9,5,8,0,L,,,,,,,,,,
+2023-03-01,Dodgers,Rangers,3 - 2 ,1,1,1,0,1,0,0,X,X,X,X,X,X,X,X,X,N,7,4,6,0,W,,,,,,,,,,
+2023-03-01,Rangers,Dodgers,3 - 4 ,1,0,0,0,0,0,1,X,X,X,X,X,X,X,X,X,N,7,2,7,1,L,,,,,,,,,,
+2023-03-01,Guardians,White Sox,2 - 4 ,2,0,1,1,0,0,4,0,1,X,X,X,X,X,X,X,N,9,9,9,1,W,,,,,,,,,,
+2023-03-01,White Sox,Guardians,2 - 3 ,0,0,0,1,0,0,3,2,X,X,X,X,X,X,X,X,N,9,6,9,3,L,,,,,,,,,,
+2023-03-01,Royals,Rockies,5 - 1 ,0,0,0,2,0,0,1,0,5,X,X,X,X,X,X,X,N,9,8,11,2,W,,,,,,,,,,
+2023-03-01,Rockies,Royals,3 - 2 ,1,3,0,0,0,1,1,0,0,X,X,X,X,X,X,X,N,9,6,10,1,L,,,,,,,,,,
+2023-03-01,Rangers,Padres,3 - 4 ,0,0,0,0,0,0,1,X,X,X,X,X,X,X,X,X,N,7,1,4,0,L,,,,,,,,,,
+2023-03-01,Padres,Rangers,4 - 2 ,0,3,0,1,1,0,X,X,X,X,X,X,X,X,X,X,N,7,5,7,1,W,,,,,,,,,,
+2023-03-15,Australia,Cuba,0 - 1 ,0,1,0,0,0,2,0,0,0,X,X,X,X,X,X,X,N,9,3,5,0,L,,,,,,,,,,
+2023-03-15,Cuba,Australia,1 - 0 ,0,0,1,0,3,0,0,0,X,X,X,X,X,X,X,X,N,9,4,7,0,W,,,,,,,,,,
+2023-03-15,Venezuela,Israel,4 - 0 ,3,0,0,1,0,1,0,0,0,X,X,X,X,X,X,X,N,9,5,10,0,W,,,,,,,,,,
+2023-03-15,Israel,Venezuela,1 - 3 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,9,1,9,1,L,,,,,,,,,,
+2023-03-15,Mexico,Canada,3 - 1 ,2,1,0,0,0,4,2,1,0,X,X,X,X,X,X,X,N,9,10,10,0,W,,,,,,,,,,
+2023-03-15,Canada,Mexico,2 - 2 ,1,0,0,1,0,0,1,0,0,X,X,X,X,X,X,X,N,9,3,7,0,L,,,,,,,,,,
+2023-03-15,Puerto Rico,Dominican Rep.,3 - 1 ,0,0,4,0,1,0,0,0,0,X,X,X,X,X,X,X,N,9,5,8,0,W,,,,,,,,,,
+2023-03-15,Dominican Rep.,Puerto Rico,2 - 2 ,0,0,1,0,1,0,0,0,0,X,X,X,X,X,X,X,N,9,2,6,1,L,,,,,,,,,,
+2023-03-15,United States,Colombia,3 - 1 ,0,0,1,0,2,0,0,0,0,X,X,X,X,X,X,X,N,9,3,7,0,W,,,,,,,,,,
+2023-03-15,Colombia,United States,1 - 3 ,0,0,2,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,2,6,0,L,,,,,,,,,,
+2023-03-15,Rays,Red Sox,9 - 8 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,6,3,L,,,,,,,,,,
+2023-03-15,Red Sox,Rays,10 - 5 ,3,0,1,0,0,2,3,0,X,X,X,X,X,X,X,X,N,9,9,8,0,W,,,,,,,,,,
+2023-03-15,Astros,Braves,8 - 6 ,1,0,1,0,0,3,0,3,1,X,X,X,X,X,X,X,N,9,9,15,0,W,,,,,,,,,,
+2023-03-15,Braves,Astros,8 - 8 ,0,0,0,0,1,1,0,1,0,X,X,X,X,X,X,X,N,9,3,7,2,L,,,,,,,,,,
+2023-03-15,Phillies,Yankees,9 - 8 ,7,0,0,0,0,0,0,0,2,X,X,X,X,X,X,X,N,9,9,9,1,W,,,,,,,,,,
+2023-03-15,Yankees,Phillies,9 - 10 ,1,0,0,0,0,4,0,3,0,X,X,X,X,X,X,X,N,9,8,8,0,L,,,,,,,,,,
+2023-03-15,Pirates,Blue Jays,4 - 12 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,9,1,5,2,L,,,,,,,,,,
+2023-03-15,Blue Jays,Pirates,12 - 7 ,0,0,2,0,2,0,2,1,X,X,X,X,X,X,X,X,N,9,7,8,0,W,,,,,,,,,,
+2023-03-15,Cardinals,Mets,10 - 5 ,0,0,0,0,0,2,2,0,0,X,X,X,X,X,X,X,N,9,4,7,0,W,,,,,,,,,,
+2023-03-15,Mets,Cardinals,7 - 10 ,0,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,9,1,5,2,L,,,,,,,,,,
+2023-03-15,Royals,Rangers,14 - 5 ,0,0,0,0,0,2,0,1,0,X,X,X,X,X,X,X,N,9,3,5,1,L,,,,,,,,,,
+2023-03-15,Rangers,Royals,8 - 11 ,0,1,1,0,0,1,0,0,1,X,X,X,X,X,X,X,N,9,4,4,2,W,,,,,,,,,,
+2023-04-02,Tigers,Rays,0 - 3 ,0,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,N,9,1,2,0,L,,,,,,,,,,
+2023-04-02,Rays,Tigers,3 - 0 ,0,0,0,1,0,3,0,1,X,X,X,X,X,X,X,X,N,9,5,8,0,W,,,,,,,,,,
+2023-04-02,Orioles,Red Sox,1 - 2 ,0,0,0,0,3,0,2,0,0,X,X,X,X,X,X,X,N,9,5,10,2,L,,,,,,,,,,
+2023-04-02,Red Sox,Orioles,2 - 1 ,1,1,1,0,3,0,2,1,X,X,X,X,X,X,X,X,N,9,9,14,0,W,,,,,,,,,,
+2023-04-02,Braves,Nationals,2 - 1 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,4,0,L,,,,,,,,,,
+2023-04-02,Nationals,Braves,1 - 2 ,4,0,0,0,0,0,0,0,X,X,X,X,X,X,X,X,N,9,4,6,0,W,,,,,,,,,,
+2023-04-02,Giants,Yankees,1 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,3,0,L,,,,,,,,,,
+2023-04-02,Yankees,Giants,2 - 1 ,0,0,3,1,0,0,2,0,X,X,X,X,X,X,X,X,N,9,6,7,1,W,,,,,,,,,,
+2023-04-02,Pirates,Reds,1 - 2 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,6,0,L,,,,,,,,,,
+2023-04-02,Reds,Pirates,2 - 1 ,0,1,1,0,1,0,0,0,X,X,X,X,X,X,X,X,N,9,3,9,0,W,,,,,,,,,,
+2023-04-02,Mets,Marlins,3 - 1 ,2,0,0,0,2,0,1,0,0,X,X,X,X,X,X,X,N,9,5,5,0,W,,,,,,,,,,
+2023-04-02,Marlins,Mets,1 - 3 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,4,1,L,,,,,,,,,,
+2023-04-02,Twins,Royals,3 - 0 ,0,1,0,1,0,1,3,1,0,X,X,X,X,X,X,X,N,9,7,13,0,W,,,,,,,,,,
+2023-04-02,Royals,Twins,0 - 3 ,0,1,0,0,0,0,2,0,1,X,X,X,X,X,X,X,N,9,4,6,0,L,,,,,,,,,,
+2023-04-02,White Sox,Astros,2 - 2 ,0,0,0,0,1,2,0,1,2,X,X,X,X,X,X,X,N,9,6,13,0,W,,,,,,,,,,
+2023-04-02,Astros,White Sox,2 - 2 ,0,0,0,0,0,1,0,0,2,X,X,X,X,X,X,X,N,9,3,7,0,L,,,,,,,,,,
+2023-04-02,Blue Jays,Cardinals,1 - 2 ,0,3,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,4,10,0,L,,,,,,,,,,
+2023-04-02,Cardinals,Blue Jays,2 - 1 ,4,0,3,2,0,0,0,0,X,X,X,X,X,X,X,X,N,9,9,16,0,W,,,,,,,,,,
+2023-04-02,Brewers,Cubs,2 - 1 ,0,1,1,1,0,5,1,0,0,X,X,X,X,X,X,X,N,9,9,13,0,W,,,,,,,,,,
+2023-04-02,Cubs,Brewers,1 - 2 ,1,1,0,0,0,0,1,2,0,X,X,X,X,X,X,X,N,9,5,9,1,L,,,,,,,,,,
+2023-04-02,Angels,Athletics,2 - 1 ,0,0,0,3,3,0,0,0,0,X,X,X,X,X,X,X,N,9,6,11,0,W,,,,,,,,,,
+2023-04-02,Athletics,Angels,1 - 2 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,5,1,L,,,,,,,,,,
+2023-04-02,D-backs,Dodgers,2 - 2 ,0,0,0,0,1,0,0,0,1,X,X,X,X,X,X,X,N,9,2,9,0,W,,,,,,,,,,
+2023-04-02,Dodgers,D-backs,2 - 2 ,1,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,4,1,L,,,,,,,,,,
+2023-04-02,Rockies,Padres,2 - 2 ,0,0,0,0,0,0,1,0,0,X,X,X,X,X,X,X,N,9,1,4,0,L,,,,,,,,,,
+2023-04-02,Padres,Rockies,2 - 2 ,0,0,3,0,0,0,0,0,X,X,X,X,X,X,X,X,N,9,3,4,0,W,,,,,,,,,,
+2023-04-02,Guardians,Mariners,3 - 1 ,0,3,0,0,1,0,1,0,0,1,X,X,X,X,X,X,Y,10,6,9,1,W,,,,,,,,,,
+2023-04-02,Mariners,Guardians,1 - 3 ,1,0,3,0,1,0,0,0,0,0,X,X,X,X,X,X,Y,10,5,9,1,L,,,,,,,,,,
+2023-04-02,Phillies,Rangers,0 - 3 ,0,0,0,1,0,0,0,0,0,X,X,X,X,X,X,X,N,9,1,9,0,L,,,,,,,,,,
+2023-04-02,Rangers,Phillies,3 - 0 ,0,1,0,0,1,0,0,0,X,X,X,X,X,X,X,X,N,9,2,8,0,W,,,,,,,,,,
+2022-04-25,Giants,Brewers,12 - 5 ,0,0,0,0,0,0,0,2,2,X,X,X,X,X,X,X,N,9,4,6,1,W,,,,,,,,,,
+2022-04-25,Brewers,Giants,10 - 7 ,0,1,0,0,0,0,0,1,0,X,X,X,X,X,X,X,N,9,2,5,0,L,,,,,,,,,,
+2022-04-25,Rockies,Phillies,10 - 6 ,1,1,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,2,5,3,L,,,,,,,,,,
+2022-04-25,Phillies,Rockies,7 - 10 ,0,0,3,0,1,0,4,0,X,X,X,X,X,X,X,X,N,9,8,9,0,W,,,,,,,,,,
+2022-04-25,Red Sox,Blue Jays,7 - 10 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,2,7,0,L,,,,,,,,,,
+2022-04-25,Blue Jays,Red Sox,11 - 6 ,0,0,0,0,1,0,1,4,X,X,X,X,X,X,X,X,N,9,6,10,0,W,,,,,,,,,,
+2022-04-25,Mets,Cardinals,13 - 5 ,0,0,0,0,0,0,0,0,5,X,X,X,X,X,X,X,N,9,5,9,1,W,,,,,,,,,,
+2022-04-25,Cardinals,Mets,9 - 6 ,0,0,0,0,0,0,0,2,0,X,X,X,X,X,X,X,N,9,2,5,1,L,,,,,,,,,,
+2022-04-25,Astros,Rangers,7 - 9 ,0,1,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,2,8,1,L,,,,,,,,,,
+2022-04-25,Rangers,Astros,6 - 10 ,0,1,0,0,0,0,2,3,X,X,X,X,X,X,X,X,N,9,6,11,0,W,,,,,,,,,,
+2022-04-25,Guardians,Angels,7 - 9 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,3,0,L,,,,,,,,,,
+2022-04-25,Angels,Guardians,10 - 7 ,0,0,0,0,1,0,2,0,X,X,X,X,X,X,X,X,N,9,3,8,1,W,,,,,,,,,,
+2022-04-25,Dodgers,D-backs,12 - 4 ,2,0,0,0,1,0,0,1,0,X,X,X,X,X,X,X,N,9,4,9,0,W,,,,,,,,,,
+2022-04-25,D-backs,Dodgers,6 - 11 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,3,0,L,,,,,,,,,,
+2023-04-25,Rockies,Guardians,8 - 17 ,1,3,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,5,8,1,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Guardians,Rockies,11 - 13 ,0,0,0,0,0,1,0,0,0,X,X,X,X,X,X,X,N,9,1,6,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Red Sox,Orioles,13 - 12 ,0,3,4,0,0,0,0,1,0,X,X,X,X,X,X,X,N,9,8,11,1,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Orioles,Red Sox,15 - 8 ,0,0,0,0,1,0,0,0,5,X,X,X,X,X,X,X,N,9,6,11,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Dodgers,Pirates,13 - 11 ,2,0,0,0,1,2,0,3,0,X,X,X,X,X,X,X,N,9,8,9,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Pirates,Dodgers,16 - 8 ,1,2,0,4,0,0,0,0,0,X,X,X,X,X,X,X,N,9,7,12,2,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Astros,Rays,13 - 11 ,0,0,0,0,5,0,0,0,0,X,X,X,X,X,X,X,N,9,5,11,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Rays,Astros,20 - 4 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,5,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Rangers,Reds,14 - 9 ,1,0,0,1,3,1,0,0,0,X,X,X,X,X,X,X,N,9,6,10,1,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Reds,Rangers,9 - 15 ,0,0,0,0,0,0,1,6,X,X,X,X,X,X,X,X,N,9,7,11,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Mariners,Phillies,11 - 12 ,0,0,0,0,2,2,1,0,0,X,X,X,X,X,X,X,N,9,5,8,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Phillies,Mariners,11 - 13 ,0,0,0,0,1,1,0,0,1,X,X,X,X,X,X,X,N,9,3,10,1,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,White Sox,Blue Jays,7 - 17 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,4,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Blue Jays,White Sox,15 - 9 ,0,3,0,3,0,1,0,0,X,X,X,X,X,X,X,X,N,9,7,10,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Nationals,Mets,8 - 14 ,0,1,1,0,0,3,0,0,0,X,X,X,X,X,X,X,N,9,5,11,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Mets,Nationals,14 - 10 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,5,1,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Marlins,Braves,12 - 12 ,0,0,1,0,0,0,0,2,1,X,X,X,X,X,X,X,N,9,4,10,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Braves,Marlins,16 - 8 ,1,0,0,3,0,1,0,2,X,X,X,X,X,X,X,X,N,9,7,10,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Padres,Cubs,12 - 13 ,0,0,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,0,5,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Cubs,Padres,13 - 9 ,0,2,0,0,0,0,0,4,X,X,X,X,X,X,X,X,N,9,6,7,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Yankees,Twins,13 - 11 ,1,0,0,0,1,0,0,0,0,X,X,X,X,X,X,X,N,9,2,8,1,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Twins,Yankees,14 - 10 ,0,0,2,0,0,4,0,0,X,X,X,X,X,X,X,X,N,9,6,8,1,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Tigers,Brewers,9 - 13 ,0,4,0,0,0,0,0,0,0,X,X,X,X,X,X,X,N,9,4,12,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Brewers,Tigers,15 - 9 ,0,0,1,1,0,1,0,0,0,X,X,X,X,X,X,X,N,9,3,5,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Athletics,Angels,5 - 19 ,1,0,0,0,1,1,0,0,0,X,X,X,X,X,X,X,N,9,3,6,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Angels,Athletics,12 - 12 ,4,0,0,0,0,1,0,0,X,X,X,X,X,X,X,X,N,9,5,10,0,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Royals,D-backs,6 - 18 ,1,0,0,1,2,0,0,1,0,X,X,X,X,X,X,X,N,9,5,14,1,W,X,X,X,X,X,X,X,X,X,X
+2023-04-25,D-backs,Royals,13 - 12 ,0,0,0,1,0,0,1,2,0,X,X,X,X,X,X,X,N,9,4,10,0,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Cardinals,Giants,9 - 15 ,0,0,1,0,0,0,0,3,0,X,X,X,X,X,X,X,N,9,4,9,2,L,X,X,X,X,X,X,X,X,X,X
+2023-04-25,Giants,Cardinals,10 - 13 ,0,1,0,1,0,0,0,0,3,X,X,X,X,X,X,X,N,9,5,9,1,W,X,X,X,X,X,X,X,X,X,X

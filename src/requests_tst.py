@@ -7,9 +7,6 @@ import time
 from sys import exit
 from requests import get
 from bs4 import BeautifulSoup as bs4
-from selenium import webdriver
-from selenium.webdriver import ActionChains
-from selenium.webdriver.chrome.options import Options
 from multiprocessing.pool import ThreadPool
 
 """
@@ -130,21 +127,6 @@ def validate_date(date):
     elif results_df[results_df.game_date == date].game_date.count() != 0 and mode == 1:
         print("DATE ALREADY CONTAINED IN DF, SKIPPING TO NEXT DATE")
         return 1
-
-def open_web_driver():
-    options = Options()
-    options.add_argument('--disable-blink-features=AutomationControlled') # unable differences between automated browser and standard browser
-    options.add_experimental_option('useAutomationExtension', False)
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option("prefs", { "profile.managed_default_content_settings.images": 2}) # block image loading
-    options.add_argument('--incognito')
-    options.add_argument('--headless') # WITHOUT LAUNCHING WINDOW BUT SENDS DATA TO CONSOLE
-    options.add_argument('--log-level=1') 
-    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36'
-    options.add_argument('user-agent={0}'.format(user_agent))
-    driver = webdriver.Chrome(options=options)
-
-    return driver
 
 def parse_html(html):
     soup = bs4(html,'html.parser')
